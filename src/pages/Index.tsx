@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
-import CTASection from "../components/CTASection";
 import ResultsSection from "../components/ResultsSection";
 import TechnologyStack from "../components/TechnologyStack";
 import ClientsSection from "../components/ClientsSection";

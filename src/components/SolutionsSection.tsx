@@ -1,4 +1,4 @@
-import { ArrowRight, CheckCircle, ExternalLink } from "lucide-react";
+import { CheckCircle } from "lucide-react";
 import type { FooterProps } from "../interface/t";
 
 const SolutionsSection = ({ t }: FooterProps) => {

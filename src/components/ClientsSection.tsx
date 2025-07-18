@@ -34,19 +34,22 @@ const ClientsSection = ({ t }: FooterProps) => {
           className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-foreground to-red-600 bg-clip-text text-transparent"
           data-aos="fade-up"
         >
-          {t('clients.title')}
+          {t("clients.title")}
         </h2>
-        
+
         <div
-  className="relative overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)] py-8 max-w-screen-md mx-auto"
-  data-aos="fade-up"
->
+          className="relative overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)] py-8 max-w-screen-md mx-auto"
+          data-aos="fade-up"
+        >
           <div className="animate-infinite-scroll inline-flex items-center gap-12 w-max whitespace-nowrap">
             {duplicatedLogos.map((logo, index) => (
-              <div key={`logo-${index}`} className="flex-shrink-0 min-w-[120px] flex justify-center">
-                <img 
-                  src={logo.src} 
-                  alt={logo.alt} 
+              <div
+                key={`logo-${index}`}
+                className="flex-shrink-0 min-w-[120px] flex justify-center"
+              >
+                <img
+                  src={logo.src}
+                  alt={logo.alt}
                   className={`h-${logo.height} grayscale-0 hover:grayscale opacity-100 transition-all duration-300`}
                 />
               </div>
