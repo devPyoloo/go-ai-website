@@ -30,7 +30,7 @@ const SolutionsSection = ({ t }: FooterProps) => {
       category: t("solutions.motion.category"),
       title: t("solutions.motion.title"),
       description: t("solutions.motion.description"),
-      features: t("solutions.motion.features", { returnObjects: true }),
+      features: t("solutions.motion.features", { returnObjects: true }) as string[],
       videoSrc: '/behaviour.mp4',
       gradientFrom: 'from-blue-500/10',
       gradientTo: 'to-purple-500/10',
@@ -48,7 +48,7 @@ const SolutionsSection = ({ t }: FooterProps) => {
       category: t("solutions.rotation.category"),
       title: t("solutions.rotation.title"),
       description: t("solutions.rotation.description"),
-      features: t("solutions.rotation.features", { returnObjects: true }),
+      features: t("solutions.rotation.features", { returnObjects: true }) as string[],
       videoSrc: '/rotation.mp4',
       secondaryVideoSrc: '/count.mp4',
       gradientFrom: 'from-orange-500/10',
@@ -67,7 +67,7 @@ const SolutionsSection = ({ t }: FooterProps) => {
       category: t("solutions.video.category"),
       title: t("solutions.video.title"),
       description: t("solutions.video.description"),
-      features: t("solutions.video.features", { returnObjects: true }),
+      features: t("solutions.video.features", { returnObjects: true }) as string[],
       videoSrc: '/detection.mp4',
       gradientFrom: 'from-green-500/10',
       gradientTo: 'to-teal-500/10',
@@ -85,7 +85,7 @@ const SolutionsSection = ({ t }: FooterProps) => {
       category: t("solutions.gauge.category"),
       title: t("solutions.gauge.title"),
       description: t("solutions.gauge.description"),
-      features: t("solutions.gauge.features", { returnObjects: true }),
+      features: t("solutions.gauge.features", { returnObjects: true }) as string[],
       videoSrc: '/reading.mp4',
       gradientFrom: 'from-orange-500/10',
       gradientTo: 'to-red-500/10',
@@ -104,7 +104,7 @@ const SolutionsSection = ({ t }: FooterProps) => {
       category: t("solutions.custom.category"),
       title: t("solutions.custom.title"),
       description: t("solutions.custom.description"),
-      features: t("solutions.custom.features", { returnObjects: true }),
+      features: t("solutions.custom.features", { returnObjects: true }) as string[],
       videoSrc: '/street.mp4',
       gradientFrom: 'from-green-500/10',
       gradientTo: 'to-teal-500/10',
@@ -186,7 +186,7 @@ const SolutionsSection = ({ t }: FooterProps) => {
                       </p>
                       
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-                        {solution.features.map((feature, featureIndex) => (
+                        {solution.features.map((feature: string, featureIndex: number) => (
                           <div 
                             key={featureIndex} 
                             className="group flex items-center p-3 rounded-xl bg-white/20 border border-white/30 hover:bg-white/30 hover:border-white/40 transition-all duration-300 hover:shadow-md backdrop-blur-sm"
@@ -222,7 +222,7 @@ const SolutionsSection = ({ t }: FooterProps) => {
                     </p>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      {solution.features.map((feature, featureIndex) => (
+                      {solution.features.map((feature: string, featureIndex: number) => (
                         <div 
                           key={featureIndex} 
                           className="group flex items-center p-3 rounded-xl bg-white/60 border border-gray-200/50 hover:bg-white/80 hover:border-gray-300/50 transition-all duration-300 hover:shadow-md backdrop-blur-sm"
@@ -247,7 +247,7 @@ const SolutionsSection = ({ t }: FooterProps) => {
                             loop
                             muted
                             playsInline
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            className="w-full h-full object-cover transition-transform duration-500 scale-125 group-hover:scale-150"
                           >
                             <source src={solution.videoSrc} type="video/mp4" />
                             Your browser does not support the video tag.
@@ -255,10 +255,11 @@ const SolutionsSection = ({ t }: FooterProps) => {
                           
                           {/* Secondary video for rotation solution */}
                           {solution.secondaryVideoSrc && (
-                            <div className="absolute bottom-4 left-4 w-1/3 rounded-xl overflow-hidden shadow-lg">
+                            <div className="absolute bottom-4 left-4 w-1/3 h-12 rounded-xl overflow-hidden shadow-lg">
                               <video
                                 autoPlay
                                 loop
+                                muted
                                 playsInline
                                 className="w-full h-full object-cover"
                               >
@@ -292,30 +293,6 @@ const SolutionsSection = ({ t }: FooterProps) => {
           ))}
         </div>
       </div>
-
-      <style jsx>{`
-        @keyframes scroll {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-50%);
-          }
-        }
-        
-        .animate-scroll {
-          animation: scroll 20s linear infinite;
-        }
-        
-        @keyframes pulse {
-          0%, 100% {
-            opacity: 1;
-          }
-          50% {
-            opacity: 0.5;
-          }
-        }
-      `}</style>
     </section>
   );
 };
