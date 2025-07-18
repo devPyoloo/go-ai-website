@@ -1,0 +1,43 @@
+Human Motion & Behavior Analysis
+This system uses real-time video processing to track and classify human movements, providing insights into dynamic physical actions.
+
+Key Features:
+✔ Full-Body Motion Tracking – Detects arms, legs, and torso positions with pose estimation.
+✔ Behavior Classification – Identifies actions (throwing, kicking, reaching, stepping) and motion patterns.
+✔ Visual Feedback – Overlays motion trails and real-time analytics on video.
+
+
+Rotation Counter
+This automated system detects and counts rotations of power tools (like drills) in real-time video footage using YOLOv8 object detection.
+
+Key Features:
+✔ Precision Counting - Tracks each full rotation with configurable sensitivity
+✔ Visual Feedback - Annotated video output with real-time counter overlay
+✔ Delay Control - Smart detection avoids double-counting with adjustable timing
+
+
+AI Gauge Measurement System
+Automatically reads and records values from analog gauges (pressure, torque, etc.) in real-time video streams with visual verification.
+
+Key Features:
+✔ Multi-Gauge Detection - Identifies different gauge types (pressure, torque, drill rotation)
+✔ Precision Measurement - Converts needle position to accurate digital readings
+✔ Data Logging - Exports timestamped readings to Excel with process documentation
+
+Suggested Website Implementation
+Header: Show a rotating carousel of sample output images
+Feature List: Use icons for each bullet point
+Demo Video: Embed your processed video clip showing detection in action
+
+"custom": {
+  "category": "Custom AI Vision",
+  "title": "Tailored AI Video Analytics for Your Unique Needs",
+  "description": "Unlock the flexibility of AI vision with fully customizable video analytics solutions. Whether it's monitoring cake production, specialized industrial tasks, or niche processes, our system adapts to your unique requirements with precision and scalability.",
+  "features": [
+    "Custom model development for domain-specific applications",
+    "Support for unique workflows such as food processing or niche manufacturing",
+    "Modular architecture to add or remove capabilities as needed",
+    "Scalable deployment for both cloud and on-prem environments"
+  ],
+  "learnMore": "Demo"
+}

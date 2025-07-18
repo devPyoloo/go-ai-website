@@ -1,0 +1,237 @@
+{
+  "nav": {
+    "solutions": "Solutions",
+    "about": "About",
+    "technology": "Technology",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "🚀 AI Model Solutions Platform",
+    "title": "Smarter Operations Powered by",
+    "aiTitle": "AI Visual Intelligence",
+    "subtitle": "Unlock actionable insights from your visual data with our integrated AI model solutions for image processing, video analytics, and intelligent automation.",
+    "exploreBtn": "Explore Our Solutions",
+    "demoBtn": "Watch Demo"
+  },
+  "about": {
+    "title": "Your Partner in Applied AI Innovation",
+    "content": "At GO AI, we empower businesses with advanced AI model solutions that transform how visual and language data are understood, analyzed, and acted upon. Our platform brings together cutting-edge computer vision, natural language processing, and predictive AI to solve complex, real-world challenges—from intelligent document processing to real-time video analytics and preventive maintenance.",
+    "tagline": "Let us be the intelligence behind your innovation."
+  },
+  "solutions": {
+    "title": "Our AI Solutions in Action",
+    "subtitle": "Discover how our cutting-edge AI technologies are transforming industries with real-world applications",
+    "ocr": {
+      "category": "Document Intelligence",
+      "title": "AI-Powered OCR & Document Processing",
+      "description": "Transform your document workflows with our advanced OCR technology. Extract, classify, and process documents with industry-leading accuracy across 50+ languages.",
+      "features": [
+        "99.7% accuracy in text extraction",
+        "Support for 50+ languages including handwriting",
+        "Real-time processing with cloud & edge deployment",
+        "Smart document classification and data validation"
+      ],
+      "learnMore": "Demo"
+    },
+
+    "motion": {
+      "category": "Human Behavior Analysis",
+      "title": "Human Motion & Behavior Analysis",
+      "description": "Leverage real-time video analytics to track, classify, and understand human movement. Gain actionable insights into dynamic physical behaviors using advanced pose estimation.",
+      "features": [
+        "Full-body motion tracking with precise pose estimation",
+        "Behavior classification (e.g., throwing, kicking, reaching, stepping)",
+        "Real-time visual feedback with motion trails and overlays",
+        "Supports dynamic activity recognition across various environments"
+      ],
+      "learnMore": "Demo"
+    },
+    "rotation": {
+      "category": "Industrial Vision",
+      "title": "AI-Powered Rotation Counter for Power Tools",
+      "description": "Automate the detection and counting of power tool rotations using advanced video analysis and YOLOv8 object detection. Ensure accurate monitoring and performance tracking in real-time.",
+      "features": [
+        "Precision rotation tracking with adjustable sensitivity",
+        "Real-time annotated video with live counter overlay",
+        "Smart delay control to prevent double-counting",
+        "Optimized for drills and other rotary equipment"
+      ],
+      "learnMore": "Demo"
+    },
+    "video": {
+      "category": "Computer Vision",
+      "title": "Advanced Video Recognition & Analytics",
+      "description": "Transform video streams into actionable intelligence. Our computer vision models detect, track, and analyze objects in real-time for security, quality control, and operational insights.",
+      "features": [
+        "Real-time object detection and tracking",
+        "Multi-camera synchronization and analytics",
+        "Behavioral pattern recognition",
+        "Custom model training for specific use cases"
+      ],
+      "requestDemo": "Example Link"
+    },
+    "gauge": {
+      "category": "Industrial Vision",
+      "title": "AI-Powered Gauge Measurement System",
+      "description": "Automatically detect, read, and log analog gauge values such as pressure and torque from live video. Ensure accuracy and traceability with digital conversion and export features.",
+      "features": [
+        "Multi-gauge detection (pressure, torque, drill rotation, etc.)",
+        "Precise needle-to-value conversion in real time",
+        "Visual verification with annotated video overlay",
+        "Timestamped data export to Excel with process traceability"
+      ],
+      "learnMore": "Demo"
+    },
+    "custom": {
+      "category": "Custom AI Vision",
+      "title": "Tailored AI Video Analytics for Your Unique Needs",
+      "description": "Unlock the flexibility of AI vision with fully customizable video analytics solutions. Whether it's monitoring cake production, specialized industrial tasks, or niche processes, our system adapts to your unique requirements with precision and scalability.",
+      "features": [
+        "Custom model development for domain-specific applications",
+        "Support for unique workflows such as food processing or niche manufacturing",
+        "Modular architecture to add or remove capabilities as needed",
+        "Scalable deployment for both cloud and on-prem environments"
+      ],
+      "learnMore": "Demo"
+    }
+  },
+  "suite": {
+    "title": "Complete AI Solutions Suite",
+    "video": {
+      "title": "Video Intelligence & Analytics",
+      "description": "Transform video into real-time operational insight.",
+      "features": [
+        "Real-time Monitoring",
+        "Object Detection & Tracking",
+        "Behavioral Analytics",
+        "Visual Quality Control"
+      ]
+    },
+    "image": {
+      "title": "Advanced Image AI",
+      "description": "Drive decisions through AI-powered image processing.",
+      "features": [
+        "Medical Imaging Diagnostics",
+        "Retail Visual Search",
+        "Defect Detection",
+        "Content Moderation"
+      ]
+    }
+  },
+  "why": {
+    "title": "Why Choose GO AI?",
+    "ecosystem": {
+      "title": "Unified AI Ecosystem",
+      "description": "One platform. All your AI model needs. Avoid tool fragmentation with a scalable, centralized ecosystem."
+    },
+    "industry": {
+      "title": "Adaptable to Any Industry",
+      "description": "Our AI models are designed to fit your vertical: Manufacturing, Healthcare, Retail, Finance, and Logistics."
+    },
+    "scalable": {
+      "title": "Scalable Architecture",
+      "description": "Whether you're a startup or enterprise, our solutions grow with you. Cloud-native, edge AI, and hybrid models."
+    }
+  },
+  "clients": {
+    "title": "Our Clients"
+  },
+  "technology": {
+    "title": "Our Technology Stack",
+    "vision": {
+      "title": "Computer Vision",
+      "features": [
+        "Deep neural networks",
+        "Real-time edge inference",
+        "Custom model training"
+      ]
+    },
+    "nlp": {
+      "title": "Natural Language Processing",
+      "features": [
+        "Transformer-based LLMs",
+        "Multi-modal AI capabilities",
+        "Industry-specific fine-tuning"
+      ]
+    },
+    "ml": {
+      "title": "ML Infrastructure",
+      "features": [
+        "AutoML for prototyping",
+        "Continual learning",
+        "A/B testing automation"
+      ]
+    }
+  },
+  "results": {
+    "title": "Real-World Results",
+    "manufacturing": {
+      "title": "Manufacturing Impact",
+      "quote": "\"Reduced inspection time by 75% and achieved 99.2% accuracy in defect detection.\""
+    },
+    "healthcare": {
+      "title": "Healthcare Automation",
+      "quote": "\"Radiology report generation automated, saving up to 3 hours per clinician per day.\""
+    },
+    "retail": {
+      "title": "Retail Innovation",
+      "quote": "\"Boosted e-commerce conversion rates by 35% with visual product search.\""
+    }
+  },
+  "cta": {
+    "title": "Start Your AI Journey",
+    "subtitle": "Transform your organization with an end-to-end AI adoption roadmap. Let's assess your AI opportunities—no commitment required.",
+    "consultation": "Free Strategy Consultation",
+    "demo": "Schedule a Demo"
+  },
+  "contact": {
+    "title": "Let's Talk AI",
+    "subtitle": "Partner with us to build smart, scalable, and efficient solutions.",
+    "email": "info@go-ai.one",
+    "phone": "(852) 9193-6962",
+    "address": "Rm 1127, 11/F., The Wave 4 Hing Yip Street, Kwun Tong, Kowloon, Hong Kong",
+    "form": {
+      "error": {
+        "name": "Name is required.",
+        "email": "Email is required.",
+        "emailFormat": "Please enter a valid email address.",
+        "message": "Message is required."
+      },
+      "success": "successfull submitted",
+      "placeholder": {
+        "name": "Enter your name",
+        "email": "Enter your email",
+        "message": "Type your message here"
+      },
+      "title": "Get Started Today",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message"
+    }
+  },
+  "footer": {
+    "description": "Visual Intelligence, Reimagined. Power your next innovation with the intelligence of applied AI.",
+    "links": {
+      "title": "Quick Links",
+      "solutions": "Solutions",
+      "industries": "Industries",
+      "technologies": "Technologies",
+      "contact": "Contact"
+    },
+    "resources": {
+      "title": "Resources",
+      "calculator": "ROI Calculator",
+      "whitepapers": "Whitepapers",
+      "webinars": "Webinars",
+      "blog": "Blog"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "protection": "Data Protection",
+      "compliance": "Compliance"
+    }
+  }
+}

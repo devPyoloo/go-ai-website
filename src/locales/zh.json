@@ -1,0 +1,239 @@
+{
+  "nav": {
+    "solutions": "解決方案",
+    "about": "關於我們",
+    "technology": "技術",
+    "contact": "聯繫我們"
+  },
+  "hero": {
+    "tagline": "🚀 AI 模型解決方案平台",
+    "title": "更智能的運營由",
+    "aiTitle": "AI 視覺智能驅動",
+    "subtitle": "通過我們集成的AI模型解決方案，從您的視覺數據中獲取可操作的洞察，包括圖像處理、視頻分析和智能自動化。",
+    "exploreBtn": "探索我們的解決方案",
+    "demoBtn": "觀看演示"
+  },
+  "about": {
+    "title": "您應對AI創新的合作夥伴",
+    "content": "在GO AI，我們通過先進的AI模型解決方案賦能企業，改變視覺和語言數據的理解、分析和應用方式。我們的平台匯集了尖端的計算機視覺、自然語言處理和預測性AI，解決從智能文檔處理到實時視頻分析和預防性維護等複雜的現實挑戰。",
+    "tagline": "讓我們成為您創新背後的智慧。"
+  },
+  "solutions": {
+    "title": "我們的AI解決方案實踐",
+    "subtitle": "了解我們尖端的AI技術如何通過實際應用改變行業",
+    "ocr": {
+      "category": "文檔智能",
+      "title": "AI驅動的OCR與文檔處理",
+      "description": "通過我們先進的OCR技術改變您的文檔工作流程。以行業領先的準確度提取、分類和處理50多種語言的文檔。",
+      "features": [
+        "文字提取準確率達99.7%",
+        "支持50多種語言，包括手寫體",
+        "雲端和邊緣部署的實時處理",
+        "智能文檔分類和數據驗證"
+      ],
+      "learnMore": "演示"
+    },
+    "predictive": {
+      "category": "工業AI",
+      "title": "預測性維護智能",
+      "description": "在設備故障發生前進行預防。我們的AI分析視覺模式、熱成像特徵和操作數據，精準預測維護需求。",
+      "features": [
+        "維護成本降低高達40%",
+        "故障預測準確率達85%",
+        "實時異常檢測和警報",
+        "與現有CMMS系統集成"
+      ],
+      "caseStudies": "查看案例研究"
+    },
+    "video": {
+      "category": "計算機視覺",
+      "title": "高級視頻識別與分析",
+      "description": "將視頻流轉化為可操作的智能。我們的計算機視覺模型實時檢測、跟踪和分析物體，用於安全、質量控制和運營洞察。",
+      "features": [
+        "實時物體檢測與跟踪",
+        "多攝像頭同步與分析",
+        "行為模式識別",
+        "針對特定用例的定制模型訓練"
+      ],
+      "requestDemo": "申請演示"
+    }
+  },
+  "suite": {
+    "title": "完整的AI解決方案套件",
+    "document": {
+      "title": "智能文檔處理",
+      "description": "通過智能OCR和文檔AI簡化文書工作和後台流程。",
+      "features": [
+        "自動數據提取",
+        "支持50多種語言",
+        "智能文檔分類",
+        "手寫識別"
+      ]
+    },
+    "maintenance": {
+      "title": "預測性維護智能",
+      "description": "通過AI驅動的維護優化減少停機時間並降低成本。",
+      "features": [
+        "視覺缺陷檢測",
+        "模式識別與警報",
+        "智能維護排程",
+        "成本降低高達40%"
+      ]
+    },
+    "conversational": {
+      "title": "對話式AI與NLP",
+      "description": "通過AI驅動的語言模型實現大規模有意義的對話。",
+      "features": [
+        "定制LLM部署",
+        "多模態界面",
+        "24/7自動化服務",
+        "智能內容生成"
+      ]
+    },
+    "video": {
+      "title": "視頻智能與分析",
+      "description": "將視頻轉化為實時運營洞察。",
+      "features": [
+        "實時監控",
+        "物體檢測與跟踪",
+        "行為分析",
+        "視覺質量控制"
+      ]
+    },
+    "image": {
+      "title": "高級圖像AI",
+      "description": "通過AI驅動的圖像處理推動決策。",
+      "features": [
+        "醫學影像診斷",
+        "零售視覺搜索",
+        "缺陷檢測",
+        "內容審核"
+      ]
+    },
+    "security": {
+      "title": "企業安全",
+      "description": "具有企業級安全性的全面AI解決方案。",
+      "features": [
+        "數據加密",
+        "合規就緒",
+        "審計跟踪",
+        "訪問控制"
+      ]
+    }
+  },
+  "why": {
+    "title": "為什麼選擇GO AI?",
+    "ecosystem": {
+      "title": "統一的AI生態系統",
+      "description": "一個平台，滿足您所有的AI模型需求。通過可擴展的集中式生態系統避免工具碎片化。"
+    },
+    "industry": {
+      "title": "適應任何行業",
+      "description": "我們的AI模型專為您的垂直領域設計：製造、醫療、零售、金融和物流。"
+    },
+    "scalable": {
+      "title": "可擴展的架構",
+      "description": "無論您是初創公司還是企業，我們的解決方案都能與您共同成長。雲原生、邊緣AI和混合模型。"
+    }
+  },
+  "clients": {
+    "title": "我們的客戶"
+  },
+  "technology": {
+    "title": "我們的技術堆棧",
+    "vision": {
+      "title": "計算機視覺",
+      "features": [
+        "深度神經網絡",
+        "實時邊緣推理",
+        "定制模型訓練"
+      ]
+    },
+    "nlp": {
+      "title": "自然語言處理",
+      "features": [
+        "基於Transformer的LLM",
+        "多模態AI能力",
+        "行業特定微調"
+      ]
+    },
+    "ml": {
+      "title": "機器學習基礎設施",
+      "features": [
+        "用於原型設計的自動化ML",
+        "持續學習",
+        "A/B測試自動化"
+      ]
+    }
+  },
+  "results": {
+    "title": "實際成果",
+    "manufacturing": {
+      "title": "製造業影響",
+      "quote": "「檢測時間減少75%，缺陷檢測準確率達99.2%。」"
+    },
+    "healthcare": {
+      "title": "醫療自動化",
+      "quote": "「放射學報告生成自動化，每天為每位臨床醫生節省最多3小時。」"
+    },
+    "retail": {
+      "title": "零售創新",
+      "quote": "「通過視覺產品搜索將電子商務轉化率提高了35%。」"
+    }
+  },
+  "cta": {
+    "title": "開始您的AI之旅",
+    "subtitle": "通過端到端的AI採用路線圖改變您的組織。讓我們評估您的AI機會——無需承諾。",
+    "consultation": "免費策略諮詢",
+    "demo": "預約演示"
+  },
+  "contact": {
+    "title": "讓我們談談AI",
+    "subtitle": "與我們合作構建智能、可擴展且高效的解決方案。",
+    "email": "info@go-ai.one",
+    "phone": "(852) 9193-6962",
+    "address": "Rm 1127, 11/F., The Wave 4 Hing Yip Street, Kwun Tong, Kowloon, Hong Kong",
+    "form": {
+      "error": {
+        "name": "請輸入姓名。",
+        "email": "請輸入電郵地址。",
+        "emailFormat": "請輸入有效的電郵地址。",
+        "message": "請輸入訊息。"
+      },
+      "placeholder": {
+        "name": "請輸入您的姓名",
+        "email": "請輸入您的電郵",
+        "message": "請在此輸入您的訊息"
+      },
+      "title": "立即開始",
+      "name": "姓名",
+      "email": "電郵",
+      "message": "訊息",
+      "send": "發送訊息"
+    }
+  },
+  "footer": {
+    "description": "視覺智能，重新想像。用應用AI的智慧推動您的下一次創新。",
+    "links": {
+      "title": "快速鏈接",
+      "solutions": "解決方案",
+      "industries": "行業",
+      "technologies": "技術",
+      "contact": "聯繫我們"
+    },
+    "resources": {
+      "title": "資源",
+      "calculator": "ROI計算器",
+      "whitepapers": "白皮書",
+      "webinars": "網絡研討會",
+      "blog": "博客"
+    },
+    "legal": {
+      "title": "法律",
+      "privacy": "隱私政策",
+      "terms": "使用條款",
+      "protection": "數據保護",
+      "compliance": "合規"
+    }
+  }
+}
