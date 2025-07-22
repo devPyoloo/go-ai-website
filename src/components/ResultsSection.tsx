@@ -40,10 +40,10 @@ const ResultsSection = ({ t }: FooterProps) => (
             >
               <div className="flex items-center mb-4">
                 <Users className="w-6 h-6 text-red-500 mr-2" />
-                <span className="font-semibold">{t('results.healthcare.title')}</span>
+                <span className="font-semibold">{t('results.building.title')}</span>
               </div>
               <blockquote className="text-muted-foreground italic">
-                {t('results.healthcare.quote')}
+                {t('results.building.quote')}
               </blockquote>
               <div className="flex items-center mt-3">
                 {[...Array(5)].map((_, i) => (

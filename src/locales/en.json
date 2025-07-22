@@ -1,4 +1,4 @@
-{
+  {
   "nav": {
     "solutions": "Solutions",
     "about": "About",
@@ -20,6 +20,7 @@
   },
   "solutions": {
     "title": "Our AI Solutions in Action",
+    "mainTitle": "Transform Your Vision",
     "subtitle": "Discover how our cutting-edge AI technologies are transforming industries with real-world applications",
     "ocr": {
       "category": "Document Intelligence",
@@ -169,9 +170,9 @@
       "title": "Manufacturing Impact",
       "quote": "\"Reduced inspection time by 75% and achieved 99.2% accuracy in defect detection.\""
     },
-    "healthcare": {
-      "title": "Healthcare Automation",
-      "quote": "\"Radiology report generation automated, saving up to 3 hours per clinician per day.\""
+    "building": {
+      "title": "Construction Site Safety",
+      "quote": "\"80% reduction in fatal injurie. The system detected high-risk behaviors like unprotected work at heights and equipment malfunctions in real time.\""
     },
     "retail": {
       "title": "Retail Innovation",

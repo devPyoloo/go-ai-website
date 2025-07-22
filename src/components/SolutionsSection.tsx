@@ -134,7 +134,7 @@ const SolutionsSection = ({ t }: FooterProps) => {
             {t("solutions.title")}
           </div>
           <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-red-600 to-pink-600 bg-clip-text text-transparent leading-tight">
-            Transform Your Vision
+            {t("solutions.mainTitle")}
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
             {t("solutions.subtitle")}
