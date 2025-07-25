@@ -47,80 +47,52 @@ const Footer = ({ t }: FooterProps) => (
             </li>
           </ul>
         </div>
-        <div data-aos="fade-up" data-aos-delay="300">
-          <h4 className="font-bold mb-3">{t("footer.resources.title")}</h4>
-          <ul className="space-y-2 text-sm opacity-70">
-            <li>
-              <a
-                href="#"
-                className="hover:text-red-400 transition-colors"
-              >
-                {t("footer.resources.calculator")}
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="hover:text-red-400 transition-colors"
-              >
-                {t("footer.resources.whitepapers")}
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="hover:text-red-400 transition-colors"
-              >
-                {t("footer.resources.webinars")}
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="hover:text-red-400 transition-colors"
-              >
-                {t("footer.resources.blog")}
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div data-aos="fade-up" data-aos-delay="400">
-          <h4 className="font-bold mb-3">{t("footer.legal.title")}</h4>
-          <ul className="space-y-2 text-sm opacity-70">
-            <li>
-              <a
-                href="#"
-                className="hover:text-red-400 transition-colors"
-              >
-                {t("footer.legal.privacy")}
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="hover:text-red-400 transition-colors"
-              >
-                {t("footer.legal.terms")}
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="hover:text-red-400 transition-colors"
-              >
-                {t("footer.legal.protection")}
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="hover:text-red-400 transition-colors"
-              >
-                {t("footer.legal.compliance")}
-              </a>
-            </li>
-          </ul>
-        </div>
+<div data-aos="fade-up" data-aos-delay="300">
+  <h4 className="font-bold mb-3">{t("footer.resources.title")}</h4>
+  <ul className="space-y-2 text-sm opacity-70">
+    <li>
+      <a
+        href="https://foodsafety.go-ai.one/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-red-400 transition-colors"
+      >
+        {t("footer.resources.foodsafety")}
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.aiocr.go-ai.one/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-red-400 transition-colors"
+      >
+        {t("footer.resources.smartocr")}
+      </a>
+    </li>
+    <li>
+      <a
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-red-400 transition-colors"
+      >
+        {t("footer.resources.webinars")}
+      </a>
+    </li>
+    <li>
+      <a
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-red-400 transition-colors"
+      >
+        {t("footer.resources.blog")}
+      </a>
+    </li>
+  </ul>
+</div>
+
       </div>
       <div
         className="border-t border-border/20 mt-8 pt-8 text-center text-sm opacity-70"

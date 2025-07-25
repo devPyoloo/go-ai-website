@@ -75,9 +75,9 @@ const Index = () => {
       />
       <HeroSection t={t} />
       <AboutSection t={t} />
-      <SolutionsSection t={t} />
-      <AboutRobotic t={t} />
+      {/* <AboutRobotic t={t} /> */}
       <RoboticSection t={t} />
+      <SolutionsSection t={t} />
       <CoreSolutions t={t} />
       <WhyChoose t={t} />
       <ClientsSection t={t} />

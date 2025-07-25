@@ -223,17 +223,10 @@
     },
     "resources": {
       "title": "資源",
-      "calculator": "投資回報計算器",
-      "whitepapers": "白皮書",
+      "foodsafety": "投資回報計算器",
+      "smartocr": "白皮書",
       "webinars": "網絡研討會",
       "blog": "博客"
-    },
-    "legal": {
-      "title": "法律",
-      "privacy": "隱私政策",
-      "terms": "使用條款",
-      "protection": "數據保護",
-      "compliance": "合規"
     }
   }
 }

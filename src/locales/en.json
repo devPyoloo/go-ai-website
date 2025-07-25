@@ -230,17 +230,10 @@
     },
     "resources": {
       "title": "Resources",
-      "calculator": "ROI Calculator",
-      "whitepapers": "Whitepapers",
+      "foodsafety": "Food Safety",
+      "smartocr": "Smart OCR",
       "webinars": "Webinars",
       "blog": "Blog"
-    },
-    "legal": {
-      "title": "Legal",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Use",
-      "protection": "Data Protection",
-      "compliance": "Compliance"
     }
   }
 }

@@ -42,10 +42,14 @@ const HeroSection = ({ t }: FooterProps) => (
             {t('hero.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="300">
-            <button className="inline-flex items-center justify-center rounded-md font-medium ring-offset-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-white shadow-xl h-11 px-8 text-lg bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 backdrop-blur-sm transform hover:scale-105 transition-all duration-200">
+            <a 
+              href="#solutions">
+<button className="inline-flex items-center justify-center rounded-md font-medium ring-offset-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-white shadow-xl h-11 px-8 text-lg bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 backdrop-blur-sm transform hover:scale-105 transition-all duration-200">
               <Eye className="w-5 h-5 mr-2" />
               {t('hero.exploreBtn')}
             </button>
+              </a>
+            
             <button className="inline-flex items-center justify-center rounded-md font-medium ring-offset-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-red-300/50 bg-white/10 backdrop-blur-sm shadow-xl hover:bg-white/20 hover:text-white h-11 px-8 text-lg text-red-100 transform hover:scale-105 transition-all duration-200">
               <Play className="w-5 h-5 mr-2" />
               {t('hero.demoBtn')}

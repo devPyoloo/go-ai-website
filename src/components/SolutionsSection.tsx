@@ -120,7 +120,7 @@ const SolutionsSection = ({ t }: FooterProps) => {
   ];
 
   return (
-    <section className="py-20 px-4 relative overflow-hidden">
+    <section id="solutions" className="py-20 px-4 relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-red-500 rounded-full blur-3xl"></div>

@@ -1,46 +1,121 @@
-import { Eye, Play } from "lucide-react";
+import { useState, useRef } from "react";
+import { Play } from "lucide-react";
 import type { FooterProps } from "../interface/t";
 
-const RoboticSection = ({ t }: FooterProps) => (
-  <section className="relative pt-24 pb-16 px-4 min-h-[80vh] flex items-center overflow-hidden">
-        {/* Video Background */}
-        <video 
-          className="absolute inset-0 w-full h-full object-cover"
-          autoPlay 
-          muted 
-          loop 
-          playsInline
-        >
-          <source src="/safedog.mp4" type="video/mp4" />
-          {/* Fallback image if video fails to load */}
-          <div 
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat w-full h-full"
-            style={{
-              backgroundImage: "url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80')"
-            }}
-          />
-        </video>
-        
-        <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-red-900/30" />
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-1/4 left-10 w-32 h-32 bg-red-500/10 rounded-full blur-xl animate-pulse"></div>
-          <div className="absolute bottom-1/3 right-10 w-48 h-48 bg-red-400/5 rounded-full blur-2xl animate-pulse" style={{animationDelay: '1s'}}></div>
-          <div className="absolute top-1/2 left-1/3 w-20 h-20 bg-red-600/10 rounded-full blur-lg animate-pulse" style={{animationDelay: '2s'}}></div>
+const RoboticSection = ({ t }: FooterProps) => {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  const handlePlay = () => {
+    setIsPlaying(true);
+    setTimeout(() => {
+      if (videoRef.current) {
+        videoRef.current.muted = false; // Enable sound
+        videoRef.current.play();
+      }
+    }, 200);
+  };
+
+  return (
+    <section className="relative py-16 px-4 overflow-hidden">
+      {/* Decorative elements */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-20 left-10 w-32 h-32 bg-red-500/10 rounded-full blur-xl animate-pulse"></div>
+        <div
+          className="absolute bottom-20 right-10 w-48 h-48 bg-red-400/10 rounded-full blur-xl animate-pulse"
+          style={{ animationDelay: "1s" }}
+        ></div>
+      </div>
+
+      {/* Robot images for large screens */}
+<div className="hidden md:block">
+  <img
+    src="/images/robotdog.png"
+    loading="lazy"
+    className="absolute z-30 w-[28vw] max-w-[380px] right-[1%] top-[75%] hover:scale-110 hover:rotate-2 transition-transform duration-500 animate-float"
+    alt="AI-powered robotic dog"
+  />
+
+  <img
+    src="/images/drone.png"
+    loading="lazy"
+    className="absolute z-30 w-[22vw] max-w-[280px] left-[8%] top-[10%] hover:scale-110 hover:-rotate-3 transition-transform duration-500 animate-float-delayed"
+    alt="Autonomous drone with computer vision"
+  />
+</div>
+
+
+      {/* Text section */}
+      <div className="container mx-auto max-w-4xl relative z-10 text-center mb-12">
+        <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 bg-red-50 rounded-full mx-auto">
+          <span className="w-3 h-3 bg-red-500 rounded-full animate-pulse"></span>
+          <span className="text-sm font-medium text-red-600">AI ROBOTICS</span>
         </div>
-        
-        <div className="container mx-auto text-center max-w-4xl relative z-10">
-          
-         
-        
-          <div className="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="300">
-            <button className="inline-flex items-center justify-center rounded-md font-medium ring-offset-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-white shadow-xl h-11 px-8 text-lg bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 backdrop-blur-sm transform hover:scale-105 transition-all duration-200">
-              <Eye className="w-5 h-5 mr-2" />
-              {t('hero.exploreRobot')}
-            </button>
-           
-          </div>
+
+        <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-foreground to-red-600 bg-clip-text text-transparent">
+          {t("robot.title")}
+        </h2>
+
+        <p className="text-lg text-muted-foreground mb-8 leading-relaxed mx-auto max-w-2xl">
+          {t("robot.content")}
+        </p>
+
+        <p className="mt-8 text-xl font-semibold text-red-600">
+          <span className="animate-pulse">✨</span> {t("robot.tagline")}
+        </p>
+      </div>
+
+      {/* Video Section */}
+      <div className="container mx-auto">
+        <div className="relative min-h-[400px] md:min-h-[600px] rounded-3xl overflow-hidden group shadow-2xl">
+          {/* Video or Thumbnail */}
+          {isPlaying ? (
+            <video
+              ref={videoRef}
+              loop
+              playsInline
+              controls
+              className="w-full h-full object-cover"
+            >
+              <source src="/safedog.mp4" type="video/mp4" />
+            </video>
+          ) : (
+            <div className="w-full h-full overflow-hidden">
+              <img
+                src="/images/thumbnail.png"
+                alt="Video Thumbnail"
+                loading="lazy"
+                className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
+              />
+            </div>
+          )}
+
+          {/* Overlay + Play Button */}
+          {!isPlaying && (
+            <div
+              onClick={handlePlay}
+              className="absolute inset-0 bg-black/20 flex flex-col items-center justify-center transition-all duration-300 group-hover:bg-black/30 cursor-pointer"
+            >
+              {/* Play Button */}
+              <div className="w-20 h-20 md:w-24 md:h-24 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300">
+                <Play className="w-10 h-10 md:w-12 md:h-12 text-red-600 ml-0.5 fill-red-600" />
+              </div>
+
+              {/* Title Overlay Below Button */}
+              <div className="mt-6 text-center">
+                <h3 className="text-white text-2xl md:text-3xl font-bold mb-2">
+                  Robotic Vision Demo
+                </h3>
+                <p className="text-white/80 text-sm md:text-base">
+                  Click to watch our platform in action
+                </p>
+              </div>
+            </div>
+          )}
         </div>
-      </section>
-);
+      </div>
+    </section>
+  );
+};
 
 export default RoboticSection;
