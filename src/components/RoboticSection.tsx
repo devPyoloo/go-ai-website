@@ -32,7 +32,7 @@ const RoboticSection = ({ t }: FooterProps) => {
   <img
     src="/images/robotdog.png"
     loading="lazy"
-    className="absolute z-30 w-[28vw] max-w-[380px] right-[1%] top-[75%] hover:scale-110 hover:rotate-2 transition-transform duration-500 animate-float"
+    className="absolute z-30 w-[28vw] max-w-[380px] right-[8%] top-[10%] hover:scale-110 hover:rotate-2 transition-transform duration-500 animate-float"
     alt="AI-powered robotic dog"
   />
 
