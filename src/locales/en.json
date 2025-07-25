@@ -1,4 +1,4 @@
-  {
+{
   "nav": {
     "solutions": "Solutions",
     "about": "About",
@@ -11,13 +11,12 @@
     "aiTitle": "AI Visual Intelligence",
     "subtitle": "Unlock actionable insights from your visual data with our integrated AI model solutions for image processing, video analytics, and intelligent automation.",
     "exploreBtn": "Explore Our Solutions",
-    "exploreRobot": "Explore Robotic Visions",
-    "demoBtn": "Watch Demo"
+    "exploreRobot": "Explore Robotic Visions"
   },
   "about": {
     "title": "Your Partner in Applied AI Innovation",
-    "content": "At GO AI, we empower businesses with advanced AI model solutions that transform how visual and language data are understood, analyzed, and acted upon. Our platform brings together cutting-edge computer vision, natural language processing, and predictive AI to solve complex, real-world challenges—from intelligent document processing to real-time video analytics and preventive maintenance.",
-    "tagline": "Let us be the intelligence behind your innovation."
+    "content": "GO AI empowers businesses with cutting-edge AI solutions that bridge the gap between data and decision-making. From advanced computer vision and natural language processing to real-time video analytics, our platform transforms visual and language data into actionable intelligence—helping you automate processes, enhance safety, and unlock new efficiencies.",
+    "tagline": "We bring intelligence to your innovation."
   },
 
   "robot": {

@@ -13,7 +13,6 @@ import HeroSection from "../components/HeroSection";
 import Navigation from "../components/Navigation";
 import CompanyMap from "../components/CompanyMap";
 import RoboticSection from "../components/RoboticSection";
-import AboutRobotic from "../components/AboutRobotic";
 
 
 const Index = () => {

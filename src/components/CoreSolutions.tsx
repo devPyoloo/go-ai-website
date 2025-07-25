@@ -30,18 +30,19 @@ const CoreSolutions = ({ t }: FooterProps) => (
           <p className="text-muted-foreground mb-4">
             {t("suite.video.description")}
           </p>
-          <ul className="space-y-2 text-sm">
-            {Array.isArray(t("suite.video.features", { returnObjects: true }))
-              ? (
-                  t("suite.video.features", { returnObjects: true }) as string[]
-                ).map((feature, index) => (
-                  <li key={index} className="flex items-center">
-                    <CheckCircle className="w-4 h-4 text-red-500 mr-2" />
-                    {feature}
-                  </li>
-                ))
-              : null}
-          </ul>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
+  {Array.isArray(t("suite.video.features", { returnObjects: true }))
+    ? (
+        t("suite.video.features", { returnObjects: true }) as string[]
+      ).map((feature, index) => (
+        <li key={index} className="flex items-center">
+          <CheckCircle className="w-4 h-4 text-red-500 mr-2" />
+          {feature}
+        </li>
+      ))
+    : null}
+</ul>
+
         </div>
 
         {/* Image AI */}
@@ -59,7 +60,7 @@ const CoreSolutions = ({ t }: FooterProps) => (
           <p className="text-muted-foreground mb-4">
             {t("suite.image.description")}
           </p>
-          <ul className="space-y-2 text-sm">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
             {Array.isArray(t("suite.image.features", { returnObjects: true }))
               ? (
                   t("suite.image.features", { returnObjects: true }) as string[]
