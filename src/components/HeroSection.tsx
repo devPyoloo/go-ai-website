@@ -1,4 +1,4 @@
-import { Eye, Play } from "lucide-react";
+import { Eye } from "lucide-react";
 import type { FooterProps } from "../interface/t";
 
 const HeroSection = ({ t }: FooterProps) => (
