@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import { ArrowRight, Mail, MapPin, Phone } from "lucide-react";
 import type { FooterProps } from "../interface/t";

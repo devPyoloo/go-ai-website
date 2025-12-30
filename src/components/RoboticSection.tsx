@@ -1,3 +1,5 @@
+"use client";
+
 import { useState, useRef } from "react";
 import { Play } from "lucide-react";
 import type { FooterProps } from "../interface/t";
@@ -61,7 +63,7 @@ const RoboticSection = ({ t }: FooterProps) => {
         </p>
 
         <p className="mt-8 text-xl font-semibold text-red-600">
-          <span className="animate-pulse">✨</span> {t("robot.tagline")}
+          {t("robot.tagline")}
         </p>
       </div>
 

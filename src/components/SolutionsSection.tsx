@@ -238,7 +238,7 @@ const SolutionsSection = ({ t }: FooterProps) => {
                   <div className={`${index % 2 === 0 ? 'order-1 lg:order-2' : 'order-2 lg:order-1'} relative group`}>
                     <div className={`bg-gradient-to-br ${solution.gradientFrom} ${solution.gradientTo} rounded-3xl p-8 border ${solution.borderColor} hover:shadow-2xl transition-all duration-500 backdrop-blur-sm relative overflow-hidden`}>
                       {/* Animated border */}
-                      <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-green-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-sm"></div>
+                      <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-red-600/30 via-red-500/25 to-sky-400/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-sm"></div>
                       
                       <div className="relative z-10">
                         <div className="relative h-96 rounded-2xl overflow-hidden shadow-2xl">

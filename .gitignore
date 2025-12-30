@@ -18,6 +18,8 @@ node_modules/
 
 # Build output
 dist/
+.next/
+out/
 
 # MP4 files in public folder
 public/*.mp4

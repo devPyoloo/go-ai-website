@@ -1,18 +1,18 @@
 import type { FooterProps } from "../interface/t";
 
 const Footer = ({ t }: FooterProps) => (
-  <footer className="py-12 px-4 bg-foreground text-background">
+  <footer className="py-16 px-4 bg-gradient-to-b from-foreground to-gray-900 text-background">
     <div className="container mx-auto">
-      <div className="grid md:grid-cols-4 gap-8">
+      <div className="grid md:grid-cols-4 gap-8 mb-12">
         <div data-aos="fade-up" data-aos-delay="100">
-          <div className="flex items-center space-x-2 mb-4">
+          <div className="flex items-center space-x-2 mb-6">
             <img className="w-28" src="/goai.png" alt="Go AI Logo" />
           </div>
-          <p className="text-sm opacity-70">{t("footer.description")}</p>
+          <p className="text-sm opacity-80 leading-relaxed">{t("footer.description")}</p>
         </div>
         <div data-aos="fade-up" data-aos-delay="200">
-          <h4 className="font-bold mb-3">{t("footer.links.title")}</h4>
-          <ul className="space-y-2 text-sm opacity-70">
+          <h4 className="font-bold mb-4 text-lg">{t("footer.links.title")}</h4>
+          <ul className="space-y-3 text-sm opacity-80">
             <li>
               <a
                 href="#solutions"
@@ -48,8 +48,8 @@ const Footer = ({ t }: FooterProps) => (
           </ul>
         </div>
 <div data-aos="fade-up" data-aos-delay="300">
-  <h4 className="font-bold mb-3">{t("footer.resources.title")}</h4>
-  <ul className="space-y-2 text-sm opacity-70">
+  <h4 className="font-bold mb-4 text-lg">{t("footer.resources.title")}</h4>
+  <ul className="space-y-3 text-sm opacity-80">
     <li>
       <a
         href="https://foodsafety.go-ai.one/"
@@ -95,12 +95,11 @@ const Footer = ({ t }: FooterProps) => (
 
       </div>
       <div
-        className="border-t border-border/20 mt-8 pt-8 text-center text-sm opacity-70"
+        className="border-t border-white/10 mt-12 pt-8 text-center"
         data-aos="fade-up"
         data-aos-delay="500"
       >
-        <p>&copy; {new Date().getFullYear()} GO AI. All rights reserved.</p>
-
+        <p className="text-sm opacity-70">&copy; {new Date().getFullYear()} GO AI. All rights reserved.</p>
       </div>
     </div>
   </footer>

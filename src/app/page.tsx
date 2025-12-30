@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import ContactSection from "../components/ContactSection";
@@ -14,8 +16,7 @@ import Navigation from "../components/Navigation";
 import CompanyMap from "../components/CompanyMap";
 import RoboticSection from "../components/RoboticSection";
 
-
-const Index = () => {
+export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -74,7 +75,6 @@ const Index = () => {
       />
       <HeroSection t={t} />
       <AboutSection t={t} />
-      {/* <AboutRobotic t={t} /> */}
       <RoboticSection t={t} />
       <SolutionsSection t={t} />
       <CoreSolutions t={t} />
@@ -87,6 +87,5 @@ const Index = () => {
       <Footer t={t} />
     </div>
   );
-};
+}
 
-export default Index;
