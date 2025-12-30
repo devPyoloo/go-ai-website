@@ -73,17 +73,19 @@ export default function Home() {
         isScrolled={isScrolled}
         handleLanguageToggle={handleLanguageToggle}
       />
-      <HeroSection t={t} />
-      <AboutSection t={t} />
-      <RoboticSection t={t} />
-      <SolutionsSection t={t} />
-      <CoreSolutions t={t} />
-      <WhyChoose t={t} />
-      <ClientsSection t={t} />
-      <TechnologyStack t={t} />
-      <ResultsSection t={t} />
-      <ContactSection t={t} />
-      <CompanyMap />
+      <main>
+        <HeroSection t={t} />
+        <AboutSection t={t} />
+        <RoboticSection t={t} />
+        <SolutionsSection t={t} />
+        <CoreSolutions t={t} />
+        <WhyChoose t={t} />
+        <ClientsSection t={t} />
+        <TechnologyStack t={t} />
+        <ResultsSection t={t} />
+        <ContactSection t={t} />
+        <CompanyMap />
+      </main>
       <Footer t={t} />
     </div>
   );
