@@ -1,6 +1,24 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { I18nProvider } from "../components/I18nProvider";
+import { LatestNewsPopup } from "../components/LatestNewsPopup";
+import { ThemeProvider } from "../components/ThemeProvider";
+import { SITE_URL } from "../config/seo";
+
+const fontSans = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+  display: "swap",
+});
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: dark)", color: "#000000" },
+    { media: "(prefers-color-scheme: light)", color: "#fafafa" },
+    { color: "#000000" },
+  ],
+};
 
 export const metadata: Metadata = {
   title: {
@@ -27,14 +45,11 @@ export const metadata: Metadata = {
   authors: [{ name: "GO-AI" }],
   creator: "GO-AI",
   publisher: "GO-AI",
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://go-ai.com"),
+  metadataBase: new URL(SITE_URL),
+  // Homepage canonical only. Child routes set their own via pageMetadata().
+  // No hreflang until languages have distinct URLs (client i18n is not crawlable).
   alternates: {
     canonical: "/",
-    languages: {
-      "en": "/",
-      "zh": "/",
-      "zh-CN": "/",
-    },
   },
   openGraph: {
     type: "website",
@@ -73,16 +88,14 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/images/favicon.ico", sizes: "any" },
-      { url: "/images/logo.png", type: "image/png", sizes: "32x32" },
+      { url: "/images/favicon-32.png", type: "image/png", sizes: "32x32" },
+      { url: "/images/favicon-48.png", type: "image/png", sizes: "48x48" },
     ],
     shortcut: "/images/favicon.ico",
-    apple: "/images/logo.png",
+    apple: "/images/favicon-180.png",
   },
   verification: {
-    // Add your verification codes here when available
-    // google: "your-google-verification-code",
-    // yandex: "your-yandex-verification-code",
-    // bing: "your-bing-verification-code",
+    google: "wnwtC7xug63bGAdEel9MhKYL5spIItSmAG0JfOZbDcA",
   },
 };
 
@@ -91,53 +104,48 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://go-ai.com";
-  
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "GO-AI",
-    "url": siteUrl,
-    "logo": `${siteUrl}/images/logo.png`,
-    "description": "GO AI empowers businesses with cutting-edge AI solutions including computer vision, natural language processing, and real-time video analytics.",
-    "sameAs": [
-      // Add your social media URLs here
-      // "https://www.linkedin.com/company/go-ai",
-      // "https://twitter.com/goai",
-      // "https://www.facebook.com/goai",
-    ],
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "contactType": "Customer Service",
-      // "email": "contact@go-ai.com",
-      // "telephone": "+1-XXX-XXX-XXXX",
+    "@type": "ProfessionalService",
+    name: "GO-AI",
+    url: SITE_URL,
+    logo: `${SITE_URL}/images/logo.png`,
+    image: `${SITE_URL}/images/thumbnail.png`,
+    description:
+      "GO AI empowers businesses with cutting-edge AI solutions including computer vision, natural language processing, and real-time video analytics.",
+    email: "info@go-ai.one",
+    telephone: "+852-9731-3100",
+    areaServed: {
+      "@type": "Country",
+      name: "Hong Kong",
     },
-    "address": {
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "customer service",
+      email: "info@go-ai.one",
+      telephone: "+852-9731-3100",
+      availableLanguage: ["English", "Chinese"],
+    },
+    address: {
       "@type": "PostalAddress",
-      // "addressCountry": "US",
-      // "addressLocality": "City",
-      // "addressRegion": "State",
+      streetAddress: "Room 923, 9/F, Liven House, 61-63 King Yip Street",
+      addressLocality: "Kwun Tong",
+      addressRegion: "Kowloon",
+      addressCountry: "HK",
     },
   };
 
   const websiteStructuredData = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "GO-AI",
-    "url": siteUrl,
-    "description": "AI Visual Intelligence & Advanced AI Solutions Platform",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": `${siteUrl}/search?q={search_term_string}`,
-      },
-      "query-input": "required name=search_term_string",
-    },
+    name: "GO-AI",
+    url: SITE_URL,
+    description: "AI Visual Intelligence & Advanced AI Solutions Platform",
+    inLanguage: "en",
   };
 
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className={fontSans.variable} suppressHydrationWarning>
       <head>
         <script
           type="application/ld+json"
@@ -149,7 +157,12 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <I18nProvider>{children}</I18nProvider>
+        <ThemeProvider>
+          <I18nProvider>
+            {children}
+            <LatestNewsPopup />
+          </I18nProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

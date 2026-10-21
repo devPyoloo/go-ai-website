@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "id": "merit-award-construction-safety-2026",
+    "version": "1.0.0",
+    "publishedAt": "2026-06-08",
+    "expiresAfterDays": 30,
+    "enabled": true
+  },
+  "imageSrc": "/images/award.png",
+  "ctaHref": "/#latest-news",
+  "locales": {
+    "en": {
+      "badge": "Latest news",
+      "title": "Merit Award – Construction Safety",
+      "subtitle": "Revolutionizing Construction Safety: A Multimodal LLM-Powered Robotic Dog for Proactive Hazard Prevention",
+      "body": "Hong Kong's first multimodal LLM construction safety robot can autonomously patrol construction sites and capture 360-degree immersive panoramic views of high-risk areas.",
+      "imageAlt": "Merit Award for Construction Safety — Vibro (H.K.) Ltd. multimodal LLM-powered robotic dog for proactive hazard prevention on construction sites",
+      "closeLabel": "Close announcement",
+      "ctaLabel": "View highlights"
+    },
+    "zh": {
+      "badge": "最新消息",
+      "title": "優異獎 – 建造安全",
+      "subtitle": "革新建造安全：多模態 LLM 驅動的機器人犬實現主動危害預防",
+      "body": "香港首個多模態 LLM 建造安全機器人可自主巡邏工地，並捕捉高風險區域的 360 度沉浸式全景視野。",
+      "imageAlt": "建造安全優異獎 — Vibro (H.K.) Ltd. 多模態 LLM 驅動的機器人犬，用於工地主動危害預防",
+      "closeLabel": "關閉公告",
+      "ctaLabel": "查看精選亮點"
+    }
+  }
+}

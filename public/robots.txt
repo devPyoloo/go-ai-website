@@ -8,7 +8,7 @@ Allow: /
 # Disallow: /private/
 
 # Sitemap location
-Sitemap: https://go-ai.com/sitemap.xml
+Sitemap: https://go-ai.one/sitemap.xml
 
 # Crawl-delay (optional, adjust as needed)
 # Crawl-delay: 1

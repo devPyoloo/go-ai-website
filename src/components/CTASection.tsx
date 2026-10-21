@@ -16,11 +16,11 @@ const CTASection = ({ t }: FooterProps) => (
             {t('cta.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="200">
-            <button className="inline-flex items-center justify-center rounded-md bg-white text-red-600 hover:bg-gray-100 text-lg px-8 py-6 font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
-              <CheckCircle className="w-5 h-5 mr-2" />
+            <button type="button" className="inline-flex items-center justify-center rounded-xl bg-primary-foreground px-8 py-6 text-lg font-semibold text-primary shadow-sm transition-colors hover:bg-primary-foreground/90 focus:outline-none focus:ring-2 focus:ring-primary-foreground/50 focus:ring-offset-2 focus:ring-offset-primary">
+              <CheckCircle className="mr-2 h-5 w-5" />
               {t('cta.consultation')}
             </button>
-            <button className="inline-flex items-center justify-center rounded-md border border-white text-white hover:bg-white/10 text-lg px-8 py-6 font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white bg-transparent">
+            <button type="button" className="inline-flex items-center justify-center rounded-xl border border-primary-foreground/40 bg-transparent px-8 py-6 text-lg font-semibold text-white transition-colors hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/40 focus:ring-offset-2 focus:ring-offset-transparent">
               <Calendar className="w-5 h-5 mr-2" />
               {t('cta.demo')}
             </button>

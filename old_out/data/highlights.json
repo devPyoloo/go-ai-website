@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "updatedAt": "2026-06-08"
+  },
+  "section": {
+    "en": {
+      "title": "GO-AI Featured at Hong Kong Construction AI Exhibition",
+      "subtitle": "A major local showcase highlighted our multimodal LLM-powered robotic safety dog for autonomous patrol and on-site risk reporting."
+    },
+    "zh": {
+      "title": "GO-AI 亮相香港建造業 AI 主題展",
+      "subtitle": "本地大型展覽重點展示了我們的多模態 LLM 機器人安全犬，可進行自主巡檢與現場風險報告。"
+    }
+  },
+  "slides": [
+    {
+      "id": "citac",
+      "order": 0,
+      "imageSrcs": [
+        "/images/alex.png",
+        "/images/alex1.png",
+        "/images/alex2.png"
+      ],
+      "sourceName": "CITAC CIC HK",
+      "sourceUrl": "https://citac.cic.hk/en-hk/news-and-events/events/past-events/past-events-details/10802",
+      "locales": {
+        "en": {
+          "featuredLabel": "Industry event",
+          "summary": "CITAC highlighted practical AI ConTech adoption, including multimodal safety inspection workflows for construction environments.",
+          "articleTag": "Service showcase",
+          "articleTitle": "BEYOND HUMAN VISION: THE POWER OF MULTIMODAL SAFETY INSPECTIONS",
+          "articleBody": "GO-AI presented how multimodal safety inspection combines robotics, computer vision, and language models to improve site awareness, reduce risk exposure, and support faster reporting for project teams.",
+          "caption": "GO-AI representative presents multimodal safety inspection capabilities at the CITAC CIC HK themed event.",
+          "imageAlt": "GO-AI representative speaking at CITAC event"
+        },
+        "zh": {
+          "featuredLabel": "行業活動",
+          "summary": "CITAC 強調 AI ConTech 的實際落地，其中包括面向建造環境的多模態安全巡檢流程。",
+          "articleTag": "服務展示",
+          "articleTitle": "超越人類視覺：多模態安全巡檢的力量",
+          "articleBody": "GO-AI 展示了如何結合機器人、電腦視覺與語言模型，提升工地現場感知、降低風險暴露，並加快團隊報告流程。",
+          "caption": "GO-AI 代表於 CITAC CIC HK 主題活動中介紹多模態安全巡檢能力。",
+          "imageAlt": "GO-AI 代表於 CITAC 活動發表演講"
+        }
+      }
+    },
+    {
+      "id": "standard",
+      "order": 1,
+      "imageSrcs": ["/images/eve.png"],
+      "sourceName": "The Standard",
+      "sourceUrl": "https://www.thestandard.com.hk/innovation/article/327457/Hong-Kong-Construction-Enters-AI-Era-with-Major-Exhibition",
+      "locales": {
+        "en": {
+          "featuredLabel": "Media spotlight",
+          "summary": "GO-AI was featured for practical AI patrol robotics that improve construction site safety and reduce manpower in hazardous zones.",
+          "articleTag": "Field deployment",
+          "articleTitle": "AI patrol robots for 360-degree inspections",
+          "articleBody": "At the CITAC themed exhibition, GO-AI demonstrated autonomous inspection workflows with real-time data collection and customizable AI-generated reports to support safer decision-making on construction sites.",
+          "caption": "Evelyn Tandiono, AI Programmer at GO-AI, demonstrates the multimodal LLM-powered robotic safety dog for autonomous site patrols.",
+          "imageAlt": "Evelyn Tandiono with GO-AI robotic safety dog at exhibition"
+        },
+        "zh": {
+          "featuredLabel": "媒體焦點",
+          "summary": "GO-AI 因可落地的 AI 巡檢機器人方案而受關注，能提升工地安全並降低高風險區域的人力投入。",
+          "articleTag": "現場部署",
+          "articleTitle": "AI 巡檢機器人實現 360 度檢查",
+          "articleBody": "在 CITAC 主題展中，GO-AI 展示了自主巡檢流程：即時資料採集與可自訂 AI 報告，協助施工現場更安全地做出決策。",
+          "caption": "GO-AI AI 程式工程師 Evelyn Tandiono 現場展示多模態 LLM 機器人安全犬，用於自主巡檢。",
+          "imageAlt": "Evelyn Tandiono 與 GO-AI 機器人安全犬於展會現場"
+        }
+      }
+    }
+  ]
+}

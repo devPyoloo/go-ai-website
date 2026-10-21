@@ -3,26 +3,389 @@
     "solutions": "解決方案",
     "about": "關於",
     "technology": "技術",
-    "contact": "聯繫"
+    "contact": "聯繫",
+    "cta": "GO-AI 商店",
+    "storeAria": "前往 GO-AI 商店",
+    "homeAria": "返回首頁",
+    "language": "語言",
+    "languageToggle": "切換語言",
+    "theme": "主題",
+    "themeLight": "切換至淺色主題",
+    "themeDark": "切換至深色主題"
+  },
+  "store": {
+    "eyebrow": "GO-AI 商店",
+    "title": "即將推出",
+    "description": "我們正在打造一個探索與選購 GO-AI 產品與方案的專區，敬請期待。如需提前了解，歡迎與我們聯繫。",
+    "notify": "商店上線前如有查詢？",
+    "contactBtn": "聯繫我們",
+    "homeBtn": "返回首頁",
+    "robotDog": {
+      "title": "AI 機器狗",
+      "subtitle": "選擇型號與功能",
+      "productAlt": "GO-AI 機器人安全犬巡檢中",
+      "modelSwitcher": "選擇機器狗型號",
+      "prevModel": "上一個型號",
+      "nextModel": "下一個型號",
+      "models": {
+        "go2-edu": {
+          "name": "Go2 Edu",
+          "tagline": "輕巧靈活，適合多場景巡檢。"
+        },
+        "b2": {
+          "name": "B2",
+          "tagline": "工業級平台，勝任更重負荷路線。"
+        }
+      },
+      "featuresHeading": "功能",
+      "featuresHint": "勾選你希望配備的功能。",
+      "controlsHeading": "操作方式",
+      "controlsHint": "選擇操作人員控制機器狗的方式。",
+      "controlRequired": "請選擇一種操作方式。",
+      "cta": "發送查詢",
+      "selectedCount": "已選 {{count}} 項功能",
+      "features": {
+        "gps": {
+          "title": "GPS",
+          "description": "戶外定位與巡邏路線追蹤。"
+        },
+        "obstacle": {
+          "title": "避障",
+          "description": "偵測並繞過路徑上的障礙物。"
+        },
+        "holes": {
+          "title": "避開地面坑洞",
+          "description": "感應地面開口，避免墜落風險。"
+        },
+        "vehicle": {
+          "title": "遇車停駛並警示",
+          "description": "偵測到車輛時停駛並發出警示。"
+        },
+        "waypoints": {
+          "title": "自動行走預設點",
+          "description": "依預設巡邏點自動行走。"
+        },
+        "stairs": {
+          "title": "上／落樓梯",
+          "description": "支援多層場地上落樓梯。"
+        }
+      },
+      "controls": {
+        "whatsapp": {
+          "title": "WhatsApp",
+          "description": "透過 WhatsApp 操作及接收更新。"
+        },
+        "indoor": {
+          "title": "室內遙控",
+          "description": "使用室內遙控器直接操控。"
+        }
+      },
+      "inquiry": {
+        "intro": "我想查詢以下 AI 機器狗：",
+        "productLabel": "產品",
+        "featuresLabel": "功能",
+        "controlLabel": "操作方式",
+        "noneSelected": "未選擇"
+      }
+    }
   },
   "hero": {
-    "tagline": "🚀 AI模型解決方案平台",
-    "title": "更智能的運營由以下驅動",
-    "aiTitle": "AI視覺智能",
-    "subtitle": "透過我們的集成AI模型解決方案，解鎖來自視覺數據的可操作洞察，用於圖像處理、視頻分析和智能自動化。",
+    "title": "以 AI 視覺，",
+    "aiTitle": "締造更高效智能營運",
+    "subtitle": "GO-AI 為企業部署電腦視覺系統，涵蓋影像處理、視頻分析及自動化，助團隊更早發現問題、提升營運效率。",
+    "trustLabel": "業界認可",
+    "trustOpenLabel": "查看業界認可",
+    "trustCloseLabel": "關閉認可面板",
+    "trustPanelTitle": "建造業可信賴的 AI 夥伴",
+    "trustPanelSubtitle": "官方認證與獎項，驗證 GO-AI 在香港建造安全與創新方面的實力。",
+    "trustLearnMore": "了解更多",
+    "trustViewDetails": "查看詳情",
+    "trustCitfDetailLabels": {
+      "paCode": "PA 編號",
+      "productName": "產品名稱",
+      "productType": "產品類型",
+      "productDescription": "產品描述",
+      "categories": "類別",
+      "company": "獲批供應商",
+      "priceList": "核准產品價格"
+    },
+    "trustCicAwardLabels": {
+      "advisor": "指導單位",
+      "organiser": "主辦單位",
+      "hkOrganiser": "香港主辦單位",
+      "mainlandOrganiser": "內地主辦單位",
+      "event": "活動",
+      "competition": "比賽",
+      "award": "獎項",
+      "collaborators": "合作單位"
+    },
+    "trustHighlights": [
+      {
+        "label": "CITF 預先批核項目 - 機器狗",
+        "description": "GO-AI Consultation Limited 已正式列入香港建造業創新及科技基金（CITF）預先批核科技項目。以下為我們獲批產品的官方資料。",
+        "imageAlt": "CITF 建造業創新及科技基金標誌",
+        "details": {
+          "paCode": "PA26-070",
+          "productName": "A Multimodal LLM Powered Robotic Dog for Proactive Hazard Prevention",
+          "productType": "檢查機械人",
+          "productDescription": "這款名為「多模態LLM驅動的主動式危險預防機器人狗」的產品，是一款專為機器人狗和無人機設計的AI驅動控制系統，可實現二者之間的無縫通訊。該系統使單一機器人狗能夠自主運行，並透過其內建的360度攝影機即時擷取環境數據。這些數據由整合的AI邊緣電腦進行處理，執行即時多模態危險偵測，涵蓋視覺、空間和情境分析。偵測到的危險包括高空墜落、物體墜落、與移動物體碰撞、受困、車輛事故和觸電。一旦識別到危險，系統會立即產生帶有地理標記的警報，並透過簡訊或電子郵件向用戶發送通知。",
+          "categories": [
+            {
+              "label": "Legend 15. 安全相關科技",
+              "color": "#9333ea"
+            },
+            {
+              "label": "Legend 14. 本地開發的創新科技或產品",
+              "color": "#2563eb"
+            }
+          ],
+          "company": [
+            "GO-AI Consultation Limited",
+            "電郵: info@go-ai.one"
+          ],
+          "priceList": "https://citf.cic.hk/product_Photo/files/PA_Technologies/PA26-070%20upload.pdf"
+        }
+      },
+      {
+        "label": "建造安全優異獎",
+        "description": "因多模態 LLM 機器人安全犬的主動危害預防創新方案，獲頒建造安全優異獎。",
+        "imageAlt": "建造安全優異獎 — GO-AI 機器人安全犬",
+        "href": "/#latest-news"
+      },
+      {
+        "label": "實用之星",
+        "description": "於建造業議會主辦的「2025 建築機械人比賽暨展覽」中獲頒實用之星（Champion of Practicability）。",
+        "imageAlt": "實用之星獎盃 — 2025 建築機械人比賽暨展覽",
+        "layout": "cicAward",
+        "details": {
+          "advisors": [
+            {
+              "logoSrc": "/images/HK_logo.png",
+              "logoAlt": "中華人民共和國香港特別行政區區徽",
+              "lines": [
+                "中華人民共和國香港特別行政區政府",
+                "發展局",
+                "Development Bureau",
+                "The Government of the Hong Kong Special Administrative Region",
+                "of the People’s Republic of China"
+              ]
+            },
+            {
+              "lines": [
+                "廣東省住房和城鄉建設廳",
+                "Department of Housing and Urban-Rural Development",
+                "of Guangdong Province"
+              ]
+            }
+          ],
+          "organiser": {
+            "logoSrc": "/images/CIC_mark.png",
+            "logoAlt": "建造業議會標誌",
+            "lines": [
+              "CONSTRUCTION INDUSTRY COUNCIL",
+              "建造業議會"
+            ]
+          },
+          "mainlandOrganiser": [
+            "粵港澳智能建造產業發展聯盟"
+          ],
+          "event": [
+            "Construction Robot Competition and Exhibition 2025",
+            "2025 建築機械人比賽暨展覽"
+          ],
+          "competition": [
+            "Construction Robot Practical Competition",
+            "建築機械人實戰比賽"
+          ],
+          "award": [
+            "Champion of Practicability",
+            "實用之星"
+          ],
+          "collaborators": [
+            {
+              "logoSrc": "/images/vibro.svg",
+              "logoAlt": "惠保香港有限公司標誌",
+              "lines": [
+                "Vibro (H.K.) Ltd.",
+                "惠保香港有限公司"
+              ]
+            },
+            {
+              "logoSrc": "/images/hiphing.svg",
+              "logoAlt": "協興建築有限公司標誌",
+              "lines": [
+                "Hip Hing Construction Co., Ltd.",
+                "協興建築有限公司"
+              ]
+            },
+            {
+              "logoSrc": "/goai.png",
+              "logoAlt": "哥力仕智能顧問有限公司標誌",
+              "lines": [
+                "GO-AI Consultation Ltd.",
+                "哥力仕智能顧問有限公司"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "label": "創意之星",
+        "description": "於「粵港澳建築機械人大賽2026」中獲頒創意之星（Champion of Innovation）。",
+        "imageAlt": "創意之星獎盃 — 粵港澳建築機械人大賽2026",
+        "layout": "cicAward",
+        "details": {
+          "organiserLabelKey": "hkOrganiser",
+          "sectionOrder": [
+            "advisor",
+            "mainlandOrganiser",
+            "organiser",
+            "event",
+            "competition",
+            "award",
+            "collaborators"
+          ],
+          "advisors": [
+            {
+              "lines": [
+                "廣東省住房和城鄉建設廳",
+                "Department of Housing and Urban-Rural Development",
+                "of Guangdong Province"
+              ]
+            },
+            {
+              "logoSrc": "/images/HK_logo.png",
+              "logoAlt": "中華人民共和國香港特別行政區區徽",
+              "lines": [
+                "中華人民共和國香港特別行政區政府",
+                "發展局",
+                "Development Bureau",
+                "The Government of the Hong Kong Special Administrative Region",
+                "of the People’s Republic of China"
+              ]
+            }
+          ],
+          "mainlandOrganiser": {
+            "logoSrc": "/images/ICA.png",
+            "logoAlt": "粵港澳智能建造產業發展聯盟標誌",
+            "lines": [
+              "粵港澳智能建造產業發展聯盟",
+              "Guangdong-Hong Kong-Macao Intelligent",
+              "Construction Industry Development Alliance"
+            ]
+          },
+          "organiser": {
+            "logoSrc": "/images/CIC_mark.png",
+            "logoAlt": "建造業議會標誌",
+            "lines": [
+              "CONSTRUCTION INDUSTRY COUNCIL",
+              "建造業議會"
+            ]
+          },
+          "event": [
+            "Guangdong-Hong Kong-Macao Construction Robotics Competition 2026",
+            "粵港澳建築機械人大賽2026"
+          ],
+          "competition": [
+            "Robotic Dog Competition",
+            "四足機械人（機械狗）比賽"
+          ],
+          "award": [
+            "Champion of Innovation",
+            "創意之星"
+          ],
+          "collaborators": [
+            {
+              "logoSrc": "/goai.png",
+              "logoAlt": "哥力仕智能顧問有限公司標誌",
+              "lines": [
+                "GO-AI Consultation Limited",
+                "哥力仕智能顧問有限公司"
+              ]
+            },
+            {
+              "logoSrc": "/images/vibro.svg",
+              "logoAlt": "惠保（香港）有限公司標誌",
+              "lines": [
+                "Vibro (H.K.) Limited",
+                "惠保（香港）有限公司"
+              ]
+            }
+          ]
+        }
+      }
+    ],
     "exploreBtn": "探索我們的解決方案",
     "exploreRobot": "探索機器人的視野",
-    "demoBtn": "觀看演示"
+    "demoBtn": "觀看演示",
+    "contactBtn": "聯繫我們"
   },
   "about": {
-    "title": "您在應用AI創新的合作夥伴",
-    "content": "在GO AI，我們透過先進的AI模型解決方案賦能企業，改變視覺和語言數據的理解、分析和應用方式。我的平台結合尖端的計算機視覺、自然語言處理和預測AI，以解決複雜的現實挑戰——從智能文檔處理到實時視頻分析和預防性維護。",
-    "tagline": "讓我們成為您創新背後的智能。"
+    "eyebrow": "關於我們",
+    "title": "助力 AI 創新發展的優質合作夥伴",
+    "content": "GO-AI 憑藉先進 AI 模型解決方案為企業賦能，革新視覺、語言數據的理解、分析與應用體系。平台整合前沿電腦視覺、自然語言處理及預測人工智能，有效應對多項複雜商業場景挑戰，囊括智能文檔處理、實時視頻分析與預防性維護服務。",
+    "tagline": "守護創新，智賦未來"
+  },
+  "robot": {
+    "eyebrow": "硬體",
+    "lineupLabel": "產品線",
+    "selectProduct": "選擇產品",
+    "viewDetails": "查看詳情",
+    "sidebarKicker": "現場就緒",
+    "sidebarTitle": "裝置端 AI",
+    "title": "全場景 AI 智能硬件定製方案",
+    "content": "旗下智能硬件產品整合頂級 AI 模型，賦予設備自主運作、即時研判與免手持操控能力，高效落地智能場景應用。",
+    "tagline": "讓我們幫助將您的想像力應用於現實生活！",
+    "glasses": {
+      "title": "AI智能眼鏡",
+      "description": "穿戴式 AI 智能眼鏡，為一線人員賦予實時智能能力，支持免手操控與自動化報告生成。",
+      "features": {
+        "realtime": {
+          "title": "即時AI輔助",
+          "description": "即時資訊協助與安全預警雙重保障，免手持操作，大幅優化工作效率"
+        },
+        "reporting": {
+          "title": "自動化智能報告",
+          "description": "自動梳理巡檢數據，智能生成圖文並茂的合規完整報告，可節省70% 報告撰寫工時，大幅降低人力成本。"
+        },
+        "safety": {
+          "title": "閉環安全管理系統",
+          "description": "從前端智能檢測到後端自動報告，打造完整閉環式安全管理流程。"
+        }
+      }
+    },
+    "drone": {
+      "title": "AI無人機",
+      "comingSoon": "即將推出"
+    },
+    "robotDog": {
+      "title": "AI機器狗",
+      "description": "適用於工業與場地安防的自主巡檢硬件。選擇型號與所需功能，然後發送查詢。",
+      "configureLabel": "選擇功能",
+      "comingSoon": "即將推出"
+    },
+    "demoTitle": "機器視覺演示",
+    "demoSubtitle": "點擊觀看我們的實際運作",
+    "demoPlayAria": "播放演示視頻"
   },
   "solutions": {
     "title": "我們的AI解決方案實例",
     "mainTitle": "改變你的視覺",
     "subtitle": "探索我們的尖端AI技術如何透過現實應用改變行業",
+    "introIndex": "02 — 能力模塊",
+    "introPills": [
+      "行為分析 AI",
+      "視頻智能",
+      "OCR 與文檔",
+      "邊緣部署"
+    ],
+    "introPanelKicker": "實時技術棧",
+    "introPanelTitle": "已部署的視覺流水線",
+    "introPanelBody": "每個模塊都為現場與前線團隊而設計——而非僅用於簡報。隨需求擴展，可靈活組合能力。",
+    "introLiveLabel": "生產級模型",
+    "previewBadge": "實時演示",
+    "pipLabel": "計數疊加",
+    "liveReadingsLabel": "實時讀數流",
     "ocr": {
       "category": "文檔智能",
       "title": "AI驅動的OCR與文檔處理",
@@ -54,7 +417,7 @@
       "description": "透過先進的視頻分析和YOLOv8物體檢測，自動檢測和計數電動工具的旋轉。確保實時準確監控和性能跟蹤。",
       "features": [
         "可調靈敏度的精確旋轉跟蹤",
-        "實時註釋視頻，帶有實時計數疊加",
+        "實時註釋視頻，便於旋轉可視化與覆核",
         "智能延遲控制，防止重複計數",
         "針對鑽機和其他旋轉設備進行了優化"
       ],
@@ -98,7 +461,16 @@
     }
   },
   "suite": {
+    "eyebrow": "產品套件",
     "title": "完整的AI解決方案套件",
+    "introIndex": "03 — 套件",
+    "lead": "兩大互補引擎涵蓋視覺智能——流媒體視頻與靜態影像——可在同一平台上協同部署。",
+    "pills": [
+      "視頻智能",
+      "圖像 AI",
+      "可運維交付"
+    ],
+    "bridge": "以同一部署面整合實時視頻流水線與批量圖像工作流。",
     "video": {
       "title": "視頻智能與分析",
       "description": "將視頻轉變為實時操作洞察。",
@@ -121,24 +493,44 @@
     }
   },
   "why": {
-    "title": "為什麼選擇GO AI？",
+    "eyebrow": "為何選擇我們",
+    "title": "為什麼選擇哥力仕智能顧問有限公司？",
+    "pillars": {
+      "label": "核心價值",
+      "unified": "統一",
+      "flexible": "靈活",
+      "scalable": "可擴展"
+    },
     "ecosystem": {
-      "title": "統一的AI生態系統",
-      "description": "一個平台。滿足您所有的AI模型需求。透過可擴展的集中生態系統避免工具碎片化。"
+      "title": "經現場驗證的多模態 AI",
+      "description": "結合視覺、語言與機器人能力，支援真實工地巡檢與可直接採用的事件報告。"
     },
     "industry": {
-      "title": "適應任何行業",
-      "description": "我們的AI模型旨在適應您的行業：製造、醫療、零售、金融和物流。"
+      "title": "以建造與安全流程為核心",
+      "description": "圍繞巡檢、風險偵測、合規檢查與更快報告交付而設計，貼合項目現場團隊。"
     },
     "scalable": {
-      "title": "可擴展架構",
-      "description": "無論您是初創公司還是企業，我們的解決方案都能與您共同成長。雲原生、邊緣AI和混合模型。"
+      "title": "可由試點擴展至多工地部署",
+      "description": "從單一工地快速起步，再透過雲端與邊緣部署及集中治理擴展至多團隊。"
+    },
+    "stack": {
+      "eyebrow": "AI 核心",
+      "title": "應用 AI 技術堆棧",
+      "description": "我們將計算機視覺、LLM 推理與機器人整合為一套營運流程，從偵測到可執行的報告一氣呵成。",
+      "pills": [
+        "計算機視覺",
+        "LLM 推理",
+        "機器人",
+        "報告"
+      ]
     }
   },
   "clients": {
-    "title": "我們的客戶"
+    "eyebrow": "信賴我們的",
+    "title": "合作機構與客戶"
   },
   "technology": {
+    "eyebrow": "技術",
     "title": "我們的技術堆棧",
     "vision": {
       "title": "計算機視覺",
@@ -163,10 +555,22 @@
         "持續學習",
         "A/B測試自動化"
       ]
-    }
+    },
+    "moduleLabel": "模組 {{badge}}",
+    "integratedStack": "整合技術堆棧",
+    "connected": "已連接",
+    "selectModuleHint": "選擇模組以探索功能",
+    "moduleSelected": "已選擇 {{title}}",
+    "noModuleSelected": "未選擇模組"
   },
   "results": {
+    "eyebrow": "成果",
     "title": "現實世界的結果",
+    "provenLabel": "實證成果",
+    "provenSummary": "已在製造、建造與零售營運中完成驗證。",
+    "case01": "案例 01",
+    "case02": "案例 02",
+    "case03": "案例 03",
     "manufacturing": {
       "title": "製造業影響",
       "quote": "“減少了75%的檢查時間，缺陷檢測準確率達99.2%。”"
@@ -180,6 +584,18 @@
       "quote": "“透過視覺產品搜尋提升了35%的電子商務轉化率。”"
     }
   },
+  "latestNews": {
+    "eyebrow": "精選亮點",
+    "readSource": "閱讀完整報導",
+    "sourceLabel": "來源",
+    "controls": {
+      "prev": "上一則",
+      "next": "下一則",
+      "galleryPrev": "上一張照片",
+      "galleryNext": "下一張照片",
+      "galleryPhotoNav": "此則新聞的照片"
+    }
+  },
   "cta": {
     "title": "開始您的AI之旅",
     "subtitle": "透過端到端的AI採納路線圖轉變您的組織。讓我們評估您的AI機會——無需承諾。",
@@ -187,11 +603,21 @@
     "demo": "安排演示"
   },
   "contact": {
+    "eyebrow": "聯繫",
     "title": "讓我們談談AI",
     "subtitle": "與我們合作構建智能、可擴展和高效的解決方案。",
+    "mapEyebrow": "位置",
+    "mapTitle": "歡迎到訪我們辦公室",
+    "mapOfficeLabel": "香港總部",
+    "mapLivePin": "即時標記 · 觀塘",
+    "mapOpen": "在 Google 地圖開啟",
+    "companyInfo": "公司資訊",
+    "labelEmail": "電郵",
+    "labelPhone": "電話",
+    "labelOffice": "辦公室",
     "email": "info@go-ai.one",
-    "phone": "(852) 9193-6962",
-    "address": "香港九龍觀塘興業街4號The Wave 11樓1127室",
+    "phone": "(852) 9731-3100",
+    "address": "九龍觀塘敬業街61-63號利維大廈9樓923室",
     "form": {
       "error": {
         "name": "姓名是必填項。",
@@ -209,7 +635,8 @@
       "name": "姓名",
       "email": "電子郵件",
       "message": "信息",
-      "send": "發送信息"
+      "send": "發送信息",
+      "sending": "傳送中…"
     }
   },
   "footer": {
@@ -222,11 +649,13 @@
       "contact": "聯繫"
     },
     "resources": {
-      "title": "資源",
-      "foodsafety": "投資回報計算器",
-      "smartocr": "白皮書",
-      "webinars": "網絡研討會",
-      "blog": "博客"
+      "title": "探索",
+      "about": "關於我們",
+      "solutions": "解決方案",
+      "news": "新聞",
+      "caseStudies": "案例研究",
+      "contact": "聯繫",
+      "store": "商店"
     }
   }
 }

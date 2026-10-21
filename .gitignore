@@ -26,3 +26,6 @@ public/*.mp4
 
 # MP4 files
 *.mp4
+
+# Large export archives (exceed GitHub 100MB limit)
+*.zip

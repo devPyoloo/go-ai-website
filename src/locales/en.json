@@ -3,32 +3,390 @@
     "solutions": "Solutions",
     "about": "About",
     "technology": "Technology",
-    "contact": "Contact"
+    "contact": "Contact",
+    "cta": "GO AI Store",
+    "storeAria": "Visit GO AI Store",
+    "homeAria": "Go to homepage",
+    "language": "Language",
+    "languageToggle": "Toggle language",
+    "theme": "Theme",
+    "themeLight": "Switch to light theme",
+    "themeDark": "Switch to dark theme"
+  },
+  "store": {
+    "eyebrow": "GO AI Store",
+    "title": "Coming soon",
+    "description": "We're building a place to explore and purchase GO AI products and solutions. Check back soon—or reach out if you'd like early access.",
+    "notify": "Questions while we build the store?",
+    "contactBtn": "Contact us",
+    "homeBtn": "Back to home",
+    "robotDog": {
+      "title": "AI Robot Dog",
+      "subtitle": "Choose model & features",
+      "productAlt": "GO-AI robotic safety dog on patrol",
+      "modelSwitcher": "Choose robot dog model",
+      "prevModel": "Previous model",
+      "nextModel": "Next model",
+      "models": {
+        "go2-edu": {
+          "name": "Go2 Edu",
+          "tagline": "Compact patrol unit for flexible site coverage."
+        },
+        "b2": {
+          "name": "B2",
+          "tagline": "Industrial-grade platform for heavier duty routes."
+        }
+      },
+      "featuresHeading": "Features",
+      "featuresHint": "Select the capabilities you want included.",
+      "controlsHeading": "Control method",
+      "controlsHint": "Choose how operators will control the robot dog.",
+      "controlRequired": "Please select a control method.",
+      "cta": "Send inquiry",
+      "selectedCount": "{{count}} features selected",
+      "features": {
+        "gps": {
+          "title": "GPS",
+          "description": "Outdoor positioning and location tracking for patrol routes."
+        },
+        "obstacle": {
+          "title": "Obstacle avoidance",
+          "description": "Detects and navigates around obstacles in the path."
+        },
+        "holes": {
+          "title": "Hole / pit avoidance",
+          "description": "Senses ground openings and avoids drop hazards."
+        },
+        "vehicle": {
+          "title": "Vehicle stop & alert",
+          "description": "Stops and sounds an alert when a vehicle is detected."
+        },
+        "waypoints": {
+          "title": "Autowalk preset waypoints",
+          "description": "Automatically follows a pre-set sequence of patrol points."
+        },
+        "stairs": {
+          "title": "Climb / descend stairs",
+          "description": "Handles stair ascent and descent for multi-level sites."
+        }
+      },
+      "controls": {
+        "whatsapp": {
+          "title": "WhatsApp",
+          "description": "Operate and receive updates through WhatsApp."
+        },
+        "indoor": {
+          "title": "Indoor remote",
+          "description": "Direct control with an indoor remote controller."
+        }
+      },
+      "inquiry": {
+        "intro": "I would like to inquire about the following AI Robot Dog:",
+        "productLabel": "Product",
+        "featuresLabel": "Features",
+        "controlLabel": "Control method",
+        "noneSelected": "None selected"
+      }
+    }
   },
   "hero": {
-    "tagline": "AI Model Solutions Platform",
-    "title": "Smarter Operations Powered by",
+    "title": "Smarter Operations, Powered by",
     "aiTitle": "AI Visual Intelligence",
-    "subtitle": "Unlock actionable insights from your visual data with our integrated AI model solutions for image processing, video analytics, and intelligent automation.",
+    "subtitle": "GO-AI deploys computer vision for image processing, video analytics, and automation—so your teams spot issues earlier and run operations with more confidence.",
+    "trustLabel": "Industry recognition",
+    "trustOpenLabel": "View industry recognition",
+    "trustCloseLabel": "Close recognition panel",
+    "trustPanelTitle": "Trusted by the construction industry",
+    "trustPanelSubtitle": "Official credentials and awards that validate GO-AI's safety and innovation work in Hong Kong.",
+    "trustLearnMore": "Learn more",
+    "trustViewDetails": "View details",
+    "trustCitfDetailLabels": {
+      "paCode": "PA Code",
+      "productName": "Product Name",
+      "productType": "Product Type",
+      "productDescription": "Product Description",
+      "categories": "Categories",
+      "company": "Approved Provider",
+      "priceList": "Price List"
+    },
+    "trustCicAwardLabels": {
+      "advisor": "Advisor",
+      "organiser": "Organiser",
+      "hkOrganiser": "Hong Kong Organiser",
+      "mainlandOrganiser": "Mainland Organiser",
+      "event": "Event",
+      "competition": "Competition",
+      "award": "Award",
+      "collaborators": "Collaborators"
+    },
+    "trustHighlights": [
+      {
+        "label": "CITF Pre-approved Project - Robot Dog",
+        "description": "GO-AI Consultation Limited is officially listed on Hong Kong's CITF Pre-approved Technologies List. Our approved product details are shown below.",
+        "imageAlt": "CITF Construction Innovation and Technology Fund logo",
+        "details": {
+          "paCode": "PA26-070",
+          "productName": "A Multimodal LLM Powered Robotic Dog for Proactive Hazard Prevention",
+          "productType": "Inspection Robot",
+          "productDescription": "This product, Multimodal LLM-Powered Robotic Dog for Proactive Hazard Prevention, is an AI-driven control system designed for robotic dogs and drones, enabling seamless intercommunication between them. The system allows a single robotic dog to operate autonomously, collecting real-time environmental data through its on-board 360-degree camera. This data is processed by an integrated AI edge computer, which performs real-time multimodal hazard detection, covering visual, spatial, and contextual analysis. Detected hazards include falls from height, falling objects, collisions with moving objects, entrapment, vehicle-related incidents, and electrocution. Upon identifying a hazard, the system instantly generates geotagged alerts and sends notifications to users via SMS or email.",
+          "categories": [
+            {
+              "label": "Legend 15. Safety-related Technologies",
+              "color": "#9333ea"
+            },
+            {
+              "label": "Legend 14. Locally developed innovations or products",
+              "color": "#2563eb"
+            }
+          ],
+          "company": [
+            "GO-AI Consultation Limited",
+            "Email: info@go-ai.one"
+          ],
+          "priceList": "https://citf.cic.hk/product_Photo/files/PA_Technologies/PA26-070%20upload.pdf"
+        }
+      },
+      {
+        "label": "Merit Award — Construction Safety",
+        "description": "Recognised for construction safety innovation with our multimodal LLM-powered robotic safety dog for proactive hazard prevention on site.",
+        "imageAlt": "Merit Award for Construction Safety — GO-AI robotic safety dog",
+        "href": "/#latest-news"
+      },
+      {
+        "label": "Champion of Practicability",
+        "description": "Awarded Champion of Practicability at the Construction Robot Competition and Exhibition 2025, organised by the Construction Industry Council.",
+        "imageAlt": "Champion of Practicability trophy — Construction Robot Competition and Exhibition 2025",
+        "layout": "cicAward",
+        "details": {
+          "advisors": [
+            {
+              "logoSrc": "/images/HK_logo.png",
+              "logoAlt": "Regional Emblem of the Hong Kong Special Administrative Region",
+              "lines": [
+                "中華人民共和國香港特別行政區政府",
+                "發展局",
+                "Development Bureau",
+                "The Government of the Hong Kong Special Administrative Region",
+                "of the People’s Republic of China"
+              ]
+            },
+            {
+              "lines": [
+                "廣東省住房和城鄉建設廳",
+                "Department of Housing and Urban-Rural Development",
+                "of Guangdong Province"
+              ]
+            }
+          ],
+          "organiser": {
+            "logoSrc": "/images/CIC_mark.png",
+            "logoAlt": "Construction Industry Council logo",
+            "lines": [
+              "CONSTRUCTION INDUSTRY COUNCIL",
+              "建造業議會"
+            ]
+          },
+          "mainlandOrganiser": [
+            "粵港澳智能建造產業發展聯盟"
+          ],
+          "event": [
+            "Construction Robot Competition and Exhibition 2025",
+            "2025 建築機械人比賽暨展覽"
+          ],
+          "competition": [
+            "Construction Robot Practical Competition",
+            "建築機械人實戰比賽"
+          ],
+          "award": [
+            "Champion of Practicability",
+            "實用之星"
+          ],
+          "collaborators": [
+            {
+              "logoSrc": "/images/vibro.svg",
+              "logoAlt": "Vibro (H.K.) Ltd. logo",
+              "lines": [
+                "Vibro (H.K.) Ltd.",
+                "惠保香港有限公司"
+              ]
+            },
+            {
+              "logoSrc": "/images/hiphing.svg",
+              "logoAlt": "Hip Hing Construction Co., Ltd. logo",
+              "lines": [
+                "Hip Hing Construction Co., Ltd.",
+                "協興建築有限公司"
+              ]
+            },
+            {
+              "logoSrc": "/goai.png",
+              "logoAlt": "GO-AI Consultation Ltd. logo",
+              "lines": [
+                "GO-AI Consultation Ltd.",
+                "哥力仕智能顧問有限公司"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "label": "Champion of Innovation",
+        "description": "Awarded Champion of Innovation at the Guangdong-Hong Kong-Macao Construction Robotics Competition 2026.",
+        "imageAlt": "Champion of Innovation trophy — Guangdong-Hong Kong-Macao Construction Robotics Competition 2026",
+        "layout": "cicAward",
+        "details": {
+          "organiserLabelKey": "hkOrganiser",
+          "sectionOrder": [
+            "advisor",
+            "mainlandOrganiser",
+            "organiser",
+            "event",
+            "competition",
+            "award",
+            "collaborators"
+          ],
+          "advisors": [
+            {
+              "lines": [
+                "廣東省住房和城鄉建設廳",
+                "Department of Housing and Urban-Rural Development",
+                "of Guangdong Province"
+              ]
+            },
+            {
+              "logoSrc": "/images/HK_logo.png",
+              "logoAlt": "Regional Emblem of the Hong Kong Special Administrative Region",
+              "lines": [
+                "中華人民共和國香港特別行政區政府",
+                "發展局",
+                "Development Bureau",
+                "The Government of the Hong Kong Special Administrative Region",
+                "of the People’s Republic of China"
+              ]
+            }
+          ],
+          "mainlandOrganiser": {
+            "logoSrc": "/images/ICA.png",
+            "logoAlt": "Guangdong-Hong Kong-Macao Intelligent Construction Industry Development Alliance logo",
+            "lines": [
+              "粵港澳智能建造產業發展聯盟",
+              "Guangdong-Hong Kong-Macao Intelligent",
+              "Construction Industry Development Alliance"
+            ]
+          },
+          "organiser": {
+            "logoSrc": "/images/CIC_mark.png",
+            "logoAlt": "Construction Industry Council logo",
+            "lines": [
+              "CONSTRUCTION INDUSTRY COUNCIL",
+              "建造業議會"
+            ]
+          },
+          "event": [
+            "Guangdong-Hong Kong-Macao Construction Robotics Competition 2026",
+            "粵港澳建築機械人大賽2026"
+          ],
+          "competition": [
+            "Robotic Dog Competition",
+            "四足機械人（機械狗）比賽"
+          ],
+          "award": [
+            "Champion of Innovation",
+            "創意之星"
+          ],
+          "collaborators": [
+            {
+              "logoSrc": "/goai.png",
+              "logoAlt": "GO-AI Consultation Limited logo",
+              "lines": [
+                "GO-AI Consultation Limited",
+                "哥力仕智能顧問有限公司"
+              ]
+            },
+            {
+              "logoSrc": "/images/vibro.svg",
+              "logoAlt": "Vibro (H.K.) Limited logo",
+              "lines": [
+                "Vibro (H.K.) Limited",
+                "惠保（香港）有限公司"
+              ]
+            }
+          ]
+        }
+      }
+    ],
     "exploreBtn": "Explore Our Solutions",
-    "exploreRobot": "Explore Robotic Visions"
+    "exploreRobot": "Explore Robotic Visions",
+    "contactBtn": "Contact us"
   },
   "about": {
+    "eyebrow": "About us",
     "title": "Your Partner in Applied AI Innovation",
-    "content": "GO AI empowers businesses with cutting-edge AI solutions that bridge the gap between data and decision-making. From advanced computer vision and natural language processing to real-time video analytics, our platform transforms visual and language data into actionable intelligence—helping you automate processes, enhance safety, and unlock new efficiencies.",
+    "content": "GO-AI empowers businesses with cutting-edge AI solutions that bridge the gap between data and decision-making. From advanced computer vision and natural language processing to real-time video analytics, our platform transforms visual and language data into actionable intelligence—helping you automate processes, enhance safety, and unlock new efficiencies.",
     "tagline": "We bring intelligence to your innovation."
   },
 
   "robot": {
-    "title": "Our AI model applied in Robotic Vision",
-    "content": "Our model provides robotics with the ability to see and interpret their environment, enabling more autonomous, precise, and adaptable operations.",
-    "tagline": "Let us help to apply your imagination in real life!"
+    "eyebrow": "Hardware",
+    "lineupLabel": "lineup",
+    "selectProduct": "Select product",
+    "viewDetails": "View details",
+    "sidebarKicker": "Field-ready",
+    "sidebarTitle": "AI on device",
+    "title": "AI-Powered Hardware Solutions",
+    "content": "Our intelligent hardware lineup integrates cutting-edge AI models directly into physical devices, enabling autonomous operations, real-time insights, and hands-free efficiency across industries.",
+    "tagline": "Let us help to apply your imagination in real life!",
+    "glasses": {
+      "title": "AI Smart Glasses",
+      "description": "Wearable AI-powered smart glasses that deliver real-time intelligence to frontline workers, enabling hands-free operations and automated reporting.",
+      "features": {
+        "realtime": {
+          "title": "Real-Time Assistance",
+          "description": "Provides real-time information support and safety alerts to frontline staff, freeing up their hands and significantly improving work efficiency."
+        },
+        "reporting": {
+          "title": "Automated Smart Reporting",
+          "description": "Automatically organizes inspection data to generate comprehensive compliance reports with both text and graphics, saving 70% of the time spent on report writing."
+        },
+        "safety": {
+          "title": "Closed-Loop Safety Management",
+          "description": "From front-end intelligent detection to back-end report generation, this system forms a complete closed-loop safety management process."
+        }
+      }
+    },
+    "drone": {
+      "title": "AI Drone",
+      "comingSoon": "Coming Soon"
+    },
+    "robotDog": {
+      "title": "AI Robot Dog",
+      "description": "Autonomous patrol hardware for industrial and site security. Choose a model, select the features you need, and send an inquiry.",
+      "configureLabel": "Select features",
+      "comingSoon": "Coming Soon"
+    },
+    "demoTitle": "Robotic Vision Demo",
+    "demoSubtitle": "Click to watch our platform in action",
+    "demoPlayAria": "Play demo video"
   },
 
   "solutions": {
     "title": "Our AI Solutions in Action",
     "mainTitle": "Transform Your Vision",
     "subtitle": "Discover how our cutting-edge AI technologies are transforming industries with real-world applications",
+    "introIndex": "02 — Capabilities",
+    "introPills": [
+      "Behaviour AI",
+      "Video intelligence",
+      "OCR & documents",
+      "Edge-ready"
+    ],
+    "introPanelKicker": "Live stack",
+    "introPanelTitle": "Deployed vision pipelines",
+    "introPanelBody": "Each module is engineered for operational floors and field teams—not slide decks. Mix and match capabilities as your use case grows.",
+    "introLiveLabel": "Production-ready models",
+    "previewBadge": "Live demo",
+    "pipLabel": "Counter overlay",
+    "liveReadingsLabel": "Live readings stream",
     "ocr": {
       "category": "Document Intelligence",
       "title": "AI-Powered OCR & Document Processing",
@@ -60,7 +418,7 @@
       "description": "Automate the detection and counting of power tool rotations using advanced video analysis and YOLOv8 object detection. Ensure accurate monitoring and performance tracking in real-time.",
       "features": [
         "Precision rotation tracking with adjustable sensitivity",
-        "Real-time annotated video with live counter overlay",
+        "Real-time annotated video for rotation visibility and review",
         "Smart delay control to prevent double-counting",
         "Optimized for drills and other rotary equipment"
       ],
@@ -104,7 +462,16 @@
     }
   },
   "suite": {
+    "eyebrow": "Product suite",
     "title": "Complete AI Solutions Suite",
+    "introIndex": "03 — Suite",
+    "lead": "Two complementary engines for visual intelligence — streaming video and still imagery — designed to deploy together on one platform.",
+    "pills": [
+      "Video intelligence",
+      "Image AI",
+      "Operations-ready"
+    ],
+    "bridge": "Unify live video pipelines and batch image workflows behind one deployment surface.",
     "video": {
       "title": "Video Intelligence & Analytics",
       "description": "Transform video into real-time operational insight.",
@@ -127,24 +494,44 @@
     }
   },
   "why": {
+    "eyebrow": "Why us",
     "title": "Why Choose GO AI?",
+    "pillars": {
+      "label": "Value pillars",
+      "unified": "Unified",
+      "flexible": "Flexible",
+      "scalable": "Scalable"
+    },
     "ecosystem": {
-      "title": "Unified AI Ecosystem",
-      "description": "One platform. All your AI model needs. Avoid tool fragmentation with a scalable, centralized ecosystem."
+      "title": "Field-Proven Multimodal AI",
+      "description": "Vision, language, and robotics working together for real site inspections and incident-ready reporting."
     },
     "industry": {
-      "title": "Adaptable to Any Industry",
-      "description": "Our AI models are designed to fit your vertical: Manufacturing, Healthcare, Retail, Finance, and Logistics."
+      "title": "Construction & Safety Workflows First",
+      "description": "Built around patrol, hazard detection, compliance checks, and faster report turnaround for project teams."
     },
     "scalable": {
-      "title": "Scalable Architecture",
-      "description": "Whether you're a startup or enterprise, our solutions grow with you. Cloud-native, edge AI, and hybrid models."
+      "title": "Scales from Pilot to Multi-Site Rollout",
+      "description": "Start with one site, then expand across teams with cloud and edge deployment plus centralized governance."
+    },
+    "stack": {
+      "eyebrow": "AI Core",
+      "title": "Applied AI Stack",
+      "description": "We connect computer vision, LLM reasoning, and robotics into one operational workflow from detection to actionable reports.",
+      "pills": [
+        "Computer Vision",
+        "LLM Reasoning",
+        "Robotics",
+        "Reporting"
+      ]
     }
   },
   "clients": {
-    "title": "Our Clients"
+    "eyebrow": "Trusted by",
+    "title": "Organizations we work with"
   },
   "technology": {
+    "eyebrow": "Technology",
     "title": "Our Technology Stack",
     "vision": {
       "title": "Computer Vision",
@@ -169,10 +556,22 @@
         "Continual learning",
         "A/B testing automation"
       ]
-    }
+    },
+    "moduleLabel": "Module {{badge}}",
+    "integratedStack": "Integrated stack",
+    "connected": "Connected",
+    "selectModuleHint": "Select a module to explore capabilities",
+    "moduleSelected": "{{title}} selected",
+    "noModuleSelected": "No module selected"
   },
   "results": {
+    "eyebrow": "Outcomes",
     "title": "Real-World Results",
+    "provenLabel": "Proven outcomes",
+    "provenSummary": "Tested across manufacturing, construction, and retail operations.",
+    "case01": "Case 01",
+    "case02": "Case 02",
+    "case03": "Case 03",
     "manufacturing": {
       "title": "Manufacturing Impact",
       "quote": "\"Reduced inspection time by 75% and achieved 99.2% accuracy in defect detection.\""
@@ -186,6 +585,18 @@
       "quote": "\"Boosted e-commerce conversion rates by 35% with visual product search.\""
     }
   },
+  "latestNews": {
+    "eyebrow": "Featured Highlights",
+    "readSource": "Read full coverage",
+    "sourceLabel": "Source",
+    "controls": {
+      "prev": "Prev",
+      "next": "Next",
+      "galleryPrev": "Previous photo",
+      "galleryNext": "Next photo",
+      "galleryPhotoNav": "Photos in this story"
+    }
+  },
   "cta": {
     "title": "Start Your AI Journey",
     "subtitle": "Transform your organization with an end-to-end AI adoption roadmap. Let's assess your AI opportunities—no commitment required.",
@@ -193,11 +604,21 @@
     "demo": "Schedule a Demo"
   },
   "contact": {
+    "eyebrow": "Contact",
     "title": "Let's Talk AI",
     "subtitle": "Partner with us to build smart, scalable, and efficient solutions.",
+    "mapEyebrow": "Location",
+    "mapTitle": "Visit Our Office",
+    "mapOfficeLabel": "Hong Kong HQ",
+    "mapLivePin": "Live pin · Kwun Tong",
+    "mapOpen": "Open in Google Maps",
+    "companyInfo": "Company Info",
+    "labelEmail": "Email",
+    "labelPhone": "Phone",
+    "labelOffice": "Office",
     "email": "info@go-ai.one",
-    "phone": "(852) 9193-6962",
-    "address": "Rm 1127, 11/F., The Wave 4 Hing Yip Street, Kwun Tong, Kowloon, Hong Kong",
+    "phone": "(852) 9731-3100",
+    "address": "Room 923, 9/F, Liven House, 61-63 King Yip Street, Kwun Tong, Kowloon, HK",
     "form": {
       "error": {
         "name": "Name is required.",
@@ -215,7 +636,8 @@
       "name": "Name",
       "email": "Email",
       "message": "Message",
-      "send": "Send Message"
+      "send": "Send Message",
+      "sending": "Sending…"
     }
   },
   "footer": {
@@ -228,11 +650,13 @@
       "contact": "Contact"
     },
     "resources": {
-      "title": "Resources",
-      "foodsafety": "Food Safety",
-      "smartocr": "Smart OCR",
-      "webinars": "Webinars",
-      "blog": "Blog"
+      "title": "Explore",
+      "about": "About",
+      "solutions": "Solutions",
+      "news": "News",
+      "caseStudies": "Case Studies",
+      "contact": "Contact",
+      "store": "Store"
     }
   }
 }
